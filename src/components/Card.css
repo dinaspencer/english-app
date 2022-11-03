@@ -3,6 +3,8 @@
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     grid-gap: 1rem;
     padding: 24px;
+    align-items: center;
+    margin: auto;
 }
 
 .card {
@@ -16,9 +18,18 @@
     box-shadow: 0 0 5px 2px rgba(0,0,0,.3);
     cursor: pointer;
     max-width: 80%;
-    height: 200px;
+    height: 220px;
     transition: 150ms;
     padding: .5rem;
+}
+
+.card h3 {
+    font-size: 0.9em;
+}
+
+.card h4 {
+    font-size: 0.8em;
+    font-weight: lighter;
 }
 
 .card.flip {
@@ -39,5 +50,9 @@
 @media (min-width: 768px) {
     .card-container {
         grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    }
+
+    .card {
+        font-size: 70%;
     }
 } 

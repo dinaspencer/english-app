@@ -1,8 +1,9 @@
-/* .App {
+ /* .App {
   text-align: center;
-} */
+}  */
 
 .App-header {
+  box-sizing: border-box;
   background-color: #282c34;
   display: flex;
   flex-direction: column;

@@ -3,6 +3,15 @@ import React, { useState } from 'react';
 import './Card.css';
 
 
+function PhrasalVerbHeader() {
+  return (
+    <header className="App-header header">
+    <a href="/">Main Menu</a>
+    <h1>Phrasal Verbs</h1>
+  </header>
+  )
+}
+
 const PhrasalVerbCard = ({ phrasalverbcard }) => {
 
     const [flip, setFlip] = useState(false);
@@ -946,7 +955,7 @@ const shuffleCards = phrasalverb_cards.sort(() => Math.random() - 0.5);
   
     return (
       <div className="App">
-    
+        <PhrasalVerbHeader />
         <PhrasalVerbList phrasalverbcards={cards} />
       </div>
     );

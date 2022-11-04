@@ -2,6 +2,15 @@
 import React, { useState } from 'react';
 import './Card.css';
 
+function PrefixHeader() {
+  return (
+    <header className="App-header header">
+      <a href="/">Main Menu</a>
+    <h1>Prefixes: What's The Opposite?</h1>
+  </header>
+  )
+}
+
 
 const PrefixCard = ({ prefixcard }) => {
 
@@ -11,7 +20,7 @@ const PrefixCard = ({ prefixcard }) => {
         <div className="card-container">
             <div className= {`card ${flip ? 'flip' : ''}`} onClick={() => setFlip(!flip)}>
               <div className="front">
-              {prefixcard.root}
+              <h1>{prefixcard.root}</h1>
               </div>    
               <div className="back">
               <h1>{prefixcard.prefix}</h1>
@@ -432,7 +441,7 @@ const SAMPLE_CARDS = [ {
   
     return (
       <div className="App">
-    
+        <PrefixHeader />
         <PrefixList prefixcards={cards} />
       </div>
     );

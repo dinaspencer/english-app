@@ -4,7 +4,8 @@ import './Card.css';
 
 function TabooHeader() {
     return (
-      <header className="App-header">
+      <header className="App-header header">
+      <a href="/">Main Menu</a>
       <h1>Taboo</h1>
     </header>
     )

@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -10,7 +10,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  height: 124px;
+  height: 160px;
   padding: 24px;
 }
 
@@ -20,6 +20,9 @@
 
 .main-container {
   color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .main-container li {
@@ -27,15 +30,21 @@
 }
 
 .main-button {
-  background-color: green;
-  min-width: 120px;
+  background-color: #b7c47d;
+  border-radius: 8px;
+  width: 224px;
   color: white;
   cursor: pointer;
   border: none;
   margin: 22px;
   font-size: 1.5em;
-  padding: 22px;
+  padding: 36px;
+  text-decoration: none; 
 
 }
 
+.main-button:hover {
+  opacity: 0.7;
+  color: white;
+}
 

@@ -292,8 +292,8 @@ const SAMPLE_CARDS = [ {
   {
     "id": 42,
     "root": "capable",
-    "word": "uncapable",
-    "prefix": "un"
+    "word": "incapable",
+    "prefix": "in"
   },
   {
     "id": 43,

@@ -54,9 +54,19 @@ const topics_cards = [
     {id: 7, "topic": "I need to get back on track with ___"},
     {id: 8, "topic":  "what I wish I had known before having kids (or getting married)"}, 
     {id: 9, "topic": "one habit I want to get rid of and one habit I want to keep"}, 
-    {id: 10, "topic": "if you could return to school, what would you study?"}, {id: 11, "topic": "something deeply honest about my life right now"},   
+    {id: 10, "topic": "if you could return to school, what would you study?"}, 
+    {id: 11, "topic": "something deeply honest about my life right now"},   
     {id: 11, "topic": "did your degree prepare you well for your career?"}, 
-    {id: 13, "topic": "it's hard for me to keep track of _____."}]
+    {id: 13, "topic": "it's hard for me to keep track of _____."},
+    {id: 14, "topic": "how long have you known your best friend? where did you meet and what did you have in common?"},
+    {id: 15, "topic": "if you could change one thing about your current house to make it more comfortable, what would it be?"},
+    {id: 16, "topic": "would you marry someone ten years older than you? how about ten years younger than you?"},
+    {id: 17, "topic": "would you ever consider writing your own book?"},
+    {id: 18, "topic": "can you talk about three things you dislike about yourself?"},
+    {id: 19, "topic": "three cities I would love to visit"},
+    {id: 20, "topic": "how important is beauty in your daily life?" },
+    {id: 21, "topic": "what things were you taught by your older family members?"}
+  ]
   
     const shuffleCards = topics_cards.sort(() => Math.random() - 0.5);
   

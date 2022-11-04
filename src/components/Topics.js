@@ -75,7 +75,7 @@ const topics_cards = [
   
   function Topics () {
 
-    const [cards, setCards] = useState(shuffleCards);
+    const [cards] = useState(shuffleCards);
   
   
     //TRY AGAIN LATER WITH API

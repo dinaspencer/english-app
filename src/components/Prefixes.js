@@ -426,7 +426,7 @@ const SAMPLE_CARDS = [ {
   
   function Prefixes () {
 
-    const [cards, setCards] = useState(SAMPLE_CARDS);
+    const [cards] = useState(SAMPLE_CARDS);
   
   
     //TRY AGAIN LATER WITH API

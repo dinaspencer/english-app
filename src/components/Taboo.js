@@ -662,7 +662,7 @@ const shuffleCards = taboo_cards.sort(() => Math.random() - 0.5);
   function Taboo () {
 
     
-    const [cards, setCards] = useState(shuffleCards);
+    const [cards] = useState(shuffleCards);
    
   
     return (

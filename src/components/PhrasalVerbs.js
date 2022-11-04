@@ -940,7 +940,7 @@ const shuffleCards = phrasalverb_cards.sort(() => Math.random() - 0.5);
   
   function PhrasalVerbs () {
 
-    const [cards, setCards] = useState(shuffleCards);
+    const [cards] = useState(shuffleCards);
   
   
     //TRY AGAIN LATER WITH API

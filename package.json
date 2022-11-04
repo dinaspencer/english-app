@@ -1,6 +1,7 @@
 {
-  "homepage": "https://dinaspencer.github.io/english-app",
+  
   "name": "english-app",
+  "homepage": "https://dinaspencer.github.io/english-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

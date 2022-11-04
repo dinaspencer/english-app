@@ -13,7 +13,7 @@ import Gerund from './components/Gerund';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename="/englishapp">
   <Routes>
     <Route path="/" element={ <App />} />
     <Route path="/taboo" element={<Taboo />} />

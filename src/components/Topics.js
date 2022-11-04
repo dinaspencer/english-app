@@ -65,7 +65,10 @@ const topics_cards = [
     {id: 18, "topic": "can you talk about three things you dislike about yourself?"},
     {id: 19, "topic": "three cities I would love to visit"},
     {id: 20, "topic": "how important is beauty in your daily life?" },
-    {id: 21, "topic": "what things were you taught by your older family members?"}
+    {id: 21, "topic": "what things were you taught by your older family members?"},
+    {id: 22, "topic": "something I'm eager to do"},
+    {id: 23, "topic": "the last time I was furious and what happened"},
+    {id: 24, "topic": "a dull meeting I attended recently"}
   ]
   
     const shuffleCards = topics_cards.sort(() => Math.random() - 0.5);

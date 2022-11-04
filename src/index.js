@@ -13,15 +13,15 @@ import Gerund from './components/Gerund';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename="/englishapp">
+  <BrowserRouter>
   <Routes>
-    <Route path="/" element={ <App />} />
-    <Route path="/taboo" element={<Taboo />} />
-    <Route path="/prefixes" element={<Prefixes />} />
-    <Route path="/phrasalverbs" element={<PhrasalVerbs />} />
-    <Route path="/topics" element={<Topics />} />
-    <Route path="/questions" element={<Questions />} />
-    <Route path="/gerund" element={<Gerund />} />
+    <Route path={process.env.PUBLIC_URL + '/'} element={ <App />} />
+    <Route path={process.env.PUBLIC_URL + '/taboo'} element={<Taboo />} />
+    <Route path={process.env.PUBLIC_URL + '/prefixes'} element={<Prefixes />} />
+    <Route path={process.env.PUBLIC_URL + '/phrasalverbs'} element={<PhrasalVerbs />} />
+    <Route path={process.env.PUBLIC_URL + '/topics'} element={<Topics />} />
+    <Route path={process.env.PUBLIC_URL + '/questions'} element={<Questions />} />
+    <Route path={process.env.PUBLIC_URL + '/gerund'} element={<Gerund />} />
   </Routes>
   </BrowserRouter>
 

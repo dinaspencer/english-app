@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import './Card.css';
+import { Link } from 'react-router-dom';
 
 
 
 function GerundHeader() {
   return (
     <header className="App-header header">
-      <a href="/">Main Menu</a>
+      <Link to={process.env.PUBLIC_URL + '/'}>Main Menu</Link>
     <h1>Gerund or Infinitive?</h1>
   </header>
   )

@@ -1,11 +1,12 @@
 
 import React, { useState } from 'react';
 import './Card.css';
+import { Link } from 'react-router-dom';
 
 function PrefixHeader() {
   return (
     <header className="App-header header">
-      <a href="/">Main Menu</a>
+      <Link to={process.env.PUBLIC_URL + '/'}>Main Menu</Link>
     <h1>Prefixes: What's The Opposite?</h1>
   </header>
   )

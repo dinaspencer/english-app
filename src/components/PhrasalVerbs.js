@@ -130,8 +130,8 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 15,
-    "example": "Tommy blew up the red balloon.\nDon’t blow up at me. It’s not my fault.",
-    "meaning": "To explode\nTo get angry",
+    "example": "Don’t blow up at me. It’s not my fault.",
+    "meaning": "To explode or to get angry",
     "phrasalVerb": "blow up"
   },
   {
@@ -256,9 +256,9 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 36,
-    "example": "The local authorities have decided to clamp down on illegal parking in handicapped parking places.",
+    "example": "The local authorities have decided to crack down on illegal parking in handicapped parking places.",
     "meaning": "To act strictly to prevent something",
-    "phrasalVerb": "clamp down on"
+    "phrasalVerb": "crack down on"
   },
   {
     "id": 37,
@@ -472,9 +472,9 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 72,
-    "example": "Mary had the chickenpox last week but she got over it.",
-    "meaning": "To recover from (illness, disappointment)",
-    "phrasalVerb": "get over"
+    "example": "All right, let's get this colonoscopy over with.",
+    "meaning": "To finish an unpleasant task",
+    "phrasalVerb": "get (something) over with"
   },
   {
     "id": 73,
@@ -574,9 +574,9 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 89,
-    "example": "There was a war on, so some kids were only sixteen when they joined up.\nLet’s separate now and join up later at the restaurant.",
-    "meaning": "To engage in, become a member of\nTo meet and unite with",
-    "phrasalVerb": "join up"
+    "example": "Tom and Alex really hit it off last night, I think they'll go on a second date.",
+    "meaning": "To have a good relationship from the first moment of meeting someone",
+    "phrasalVerb": "hit it off"
   },
   {
     "id": 90,
@@ -620,12 +620,12 @@ const phrasalverb_cards = [ {
     "meaning": "To consider as inferior",
     "phrasalVerb": "look down on"
   },
-  {
-    "id": 97,
-    "example": "If you don’t want to take part in the game you can look on for now.",
-    "meaning": "To be a spectator at an event",
-    "phrasalVerb": "look on"
-  },
+  // {
+  //   "id": 97,
+  //   "example": "If you don’t want to take part in the game you can look on for now.",
+  //   "meaning": "To be a spectator at an event",
+  //   "phrasalVerb": "look on"
+  // },
   {
     "id": 98,
     "example": "Harry went to the shop to look for a new computer.",
@@ -680,12 +680,12 @@ const phrasalverb_cards = [ {
     "meaning": "To fall asleep",
     "phrasalVerb": "nod off"
   },
-  {
-    "id": 107,
-    "example": "Come on. Own up. We know you did it!",
-    "meaning": "To admit or confess something",
-    "phrasalVerb": "own up"
-  },
+  // {
+  //   "id": 107,
+  //   "example": "Come on. Own up. We know you did it!",
+  //   "meaning": "To admit or confess something",
+  //   "phrasalVerb": "own up"
+  // },
   {
     "id": 108,
     "example": "Your grandfather passed away peacefully in his sleep last night.",
@@ -776,12 +776,12 @@ const phrasalverb_cards = [ {
     "meaning": "To have no more of something.",
     "phrasalVerb": "run out of"
   },
-  {
-    "id": 123,
-    "example": "Let’s set off early to miss the rush hour traffic.",
-    "meaning": "To start a journey;",
-    "phrasalVerb": "set off"
-  },
+  // {
+  //   "id": 123,
+  //   "example": "Let’s set off early to miss the rush hour traffic.",
+  //   "meaning": "To start a journey;",
+  //   "phrasalVerb": "set off"
+  // },
   {
     "id": 124,
     "example": "They set up their own company when they were still in high school.",
@@ -824,12 +824,12 @@ const phrasalverb_cards = [ {
     "meaning": "To rise from a sitting position",
     "phrasalVerb": "stand up"
   },
-  {
-    "id": 131,
-    "example": "My big brother always stuck up for me when I got into a fight.",
-    "meaning": "To defend",
-    "phrasalVerb": "stick up for"
-  },
+  // {
+  //   "id": 131,
+  //   "example": "My big brother always stuck up for me when I got into a fight.",
+  //   "meaning": "To defend",
+  //   "phrasalVerb": "stick up for"
+  // },
   {
     "id": 132,
     "example": "Angie really takes after her grandmother.",
@@ -884,12 +884,12 @@ const phrasalverb_cards = [ {
     "meaning": "To consider",
     "phrasalVerb": "think over"
   },
-  {
-    "id": 141,
-    "example": "May I top off your beverage?",
-    "meaning": "To fill something to the top; to complete something in a special or spectacular way",
-    "phrasalVerb": "top off"
-  },
+  // {
+  //   "id": 141,
+  //   "example": "May I top off your beverage?",
+  //   "meaning": "To fill something to the top; to complete something in a special or spectacular way",
+  //   "phrasalVerb": "top off"
+  // },
   {
     "id": 142,
     "example": "Go ahead, try it on and see if it fits?",

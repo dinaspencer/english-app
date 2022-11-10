@@ -63,8 +63,8 @@ const gerund_cards = [
       },
       {
         "id": 4,
-        "question": "A household chore you can't stand (do)",
-        "answer": "A household chore you can't stand doing"
+        "question": "A type of music you can't stand (listen) to",
+        "answer": "A type of music you can't stand listening to"
       },
       {
         "id": 5,

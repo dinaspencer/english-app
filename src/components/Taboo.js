@@ -85,8 +85,8 @@ const taboo_cards = [ {
   },
   {
     "id": 9,
-    "word": "",
-    "cant_say": ""
+    "word": "Donald Trump",
+    "cant_say": "\npresident\nUnited States\nUSA\ncountry"
   },
   {
     "id": 10,
@@ -125,8 +125,8 @@ const taboo_cards = [ {
   },
   {
     "id": 17,
-    "word": "",
-    "cant_say": ""
+    "word": "essential",
+    "cant_say": "\nimportant\nvital\ncrucial\nnecessary"
   },
   {
     "id": 18,

@@ -10,6 +10,7 @@ import PhrasalVerbs from './components/PhrasalVerbs';
 import Topics from './components/Topics';
 import Questions from './components/Questions';
 import Gerund from './components/Gerund';
+import Expressions from './components/Expressions';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <Route path={process.env.PUBLIC_URL + '/taboo'} element={<Taboo />} />
     <Route path={process.env.PUBLIC_URL + '/prefixes'} element={<Prefixes />} />
     <Route path={process.env.PUBLIC_URL + '/phrasalverbs'} element={<PhrasalVerbs />} />
+    <Route path={process.env.PUBLIC_URL + '/expressions'} element={<Expressions />} />
     <Route path={process.env.PUBLIC_URL + '/topics'} element={<Topics />} />
     <Route path={process.env.PUBLIC_URL + '/questions'} element={<Questions />} />
     <Route path={process.env.PUBLIC_URL + '/gerund'} element={<Gerund />} />

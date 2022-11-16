@@ -237,8 +237,8 @@ const expression_cards = [
       },
       {
         "id": 39,
-        "phrase": "over the top",
-        "definition": "extremely or excessively flamboyant or outrageous"
+        "phrase": "have a knack for",
+        "definition": "to be naturally good at something"
       },
       {
         "id": 40,

@@ -21,12 +21,12 @@ const ExpressionCard = ({ expressioncard }) => {
     return (
         <div className="card-container">
             <div className= {`card ${flip ? 'flip' : ''}`} onClick={() => setFlip(!flip)}>
-              <div className="front">
-              <h2>{expressioncard.phrase}</h2>
-              </div>    
-              <div className="back">
-              <h3>{expressioncard.definition}</h3>
-              </div>
+                <div className="front">
+                  <h2>{expressioncard.phrase}</h2>
+                </div>    
+                <div className="back">
+                  <h3>{expressioncard.definition}</h3>
+                </div>
             </div>
         </div>
       

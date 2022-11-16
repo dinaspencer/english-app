@@ -40,9 +40,10 @@
 
 .main-container {
   color: black;
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: -webkit-flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -62,7 +63,7 @@
   border: none;
   margin: 22px;
   font-size: 1.5em;
-  padding: 36px;
+  padding: 48px;
   text-decoration: none; 
 
 }

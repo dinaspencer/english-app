@@ -5,6 +5,33 @@
 * Browsers: last 4 version
 */
 
+
+
+.header {
+    padding: 48px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 16px;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.card h3 {
+    font-size: 0.9em;
+}
+
+.card h4 {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
 .card-container {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -14,7 +41,6 @@
     grid-gap: 1rem;
     padding-top: 24px;
     padding-left: 1rem;
-    
 }
 
 
@@ -41,36 +67,21 @@
     -webkit-transition: 150ms;
     -o-transition: 150ms;
     transition: 150ms;
-    padding: .5rem;
+    
 }
 
-.header {
-    padding: 48px;
+.card.flip {
+    --rotate-y: 180deg;
+    background: transparent;
 }
-
-.card h3 {
-    font-size: 0.9em;
-}
-
-.card h4 {
-    font-size: 0.8em;
-    font-weight: lighter;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.8em;
-    padding: 16px;
-}
-
-
 
 .card .front, .card .back {
     position: absolute;
     font-size: 1.6em;
+    padding: 22px;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
+            
 }
 
 .card .front {
@@ -78,26 +89,21 @@ a {
          transform: rotateY(0deg);
 }
 
-.card .back {
+.card .back  {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
-    
+   
+              
 }
 
-.card.flip {
-    --rotate-y: 180deg;
-}
+
 
 @media (min-width: 768px) {
     .card-container {
         grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     }
 
-    .card {
-        font-size: 70%;
-    }
+  
 
-    /* .card h1 {
-        font-size: 1.6em;
-    } */
+  
 } 

@@ -20,9 +20,7 @@ function App() {
     <div className="App">
       <Header />
       <MainView />
-      {/* <Taboo />
-      <PhrasalVerbs />
-      <Prefixes /> */}
+      
     </div>
   );
 }

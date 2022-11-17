@@ -398,12 +398,12 @@ const phrasalverb_cards = [ {
     "meaning": "To be on good terms; work well with",
     "phrasalVerb": "get along (with)"
   },
-  {
-    "id": 60,
-    "example": "What are you getting at? Do you think I’m to blame?",
-    "meaning": "To imply",
-    "phrasalVerb": "get at"
-  },
+  // {
+  //   "id": 60,
+  //   "example": "What are you getting at? Do you think I’m to blame?",
+  //   "meaning": "To imply",
+  //   "phrasalVerb": "get at"
+  // },
   {
     "id": 61,
     "example": "I think we should get away for the weekend.",
@@ -674,18 +674,18 @@ const phrasalverb_cards = [ {
     "meaning": "To leave your home/office for another one.",
     "phrasalVerb": "move out"
   },
-  {
-    "id": 106,
-    "example": "You were so tired after the game that you nodded off on the couch.",
-    "meaning": "To fall asleep",
-    "phrasalVerb": "nod off"
-  },
   // {
-  //   "id": 107,
-  //   "example": "Come on. Own up. We know you did it!",
-  //   "meaning": "To admit or confess something",
-  //   "phrasalVerb": "own up"
+  //   "id": 106,
+  //   "example": "You were so tired after the game that you nodded off on the couch.",
+  //   "meaning": "To fall asleep",
+  //   "phrasalVerb": "nod off"
   // },
+  {
+    "id": 107,
+    "example": "Wow, those private lessons have really paid off—your Spanish sounds totally fluent!",
+    "meaning": "To yield profits or benefits following an investment (of time, money, energy, etc.).",
+    "phrasalVerb": "pay off"
+  },
   {
     "id": 108,
     "example": "Your grandfather passed away peacefully in his sleep last night.",
@@ -884,12 +884,12 @@ const phrasalverb_cards = [ {
     "meaning": "To consider",
     "phrasalVerb": "think over"
   },
-  // {
-  //   "id": 141,
-  //   "example": "May I top off your beverage?",
-  //   "meaning": "To fill something to the top; to complete something in a special or spectacular way",
-  //   "phrasalVerb": "top off"
-  // },
+  {
+    "id": 141,
+    "example": "We are screening out job applicants who have less than three years' experience.",
+    "meaning": "To remove (someone or something that is not suitable for a particular purpose) from a group that is being examined.",
+    "phrasalVerb": "screen out"
+  },
   {
     "id": 142,
     "example": "Go ahead, try it on and see if it fits?",

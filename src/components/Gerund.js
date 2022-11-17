@@ -104,7 +104,7 @@ const gerund_cards = [
       {
         "id": 12,
         "question": "How do you tend (react) in stressful situations?",
-        "answer": "How do you tend (react) in stressful situations?"
+        "answer": "How do you tend to react in stressful situations?"
       },
       {
         "id": 13,

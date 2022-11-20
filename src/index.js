@@ -11,6 +11,7 @@ import Topics from './components/Topics';
 import Questions from './components/Questions';
 import Gerund from './components/Gerund';
 import Expressions from './components/Expressions';
+import WishHope from './components/WishHope';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
     <Route path={process.env.PUBLIC_URL + '/topics'} element={<Topics />} />
     <Route path={process.env.PUBLIC_URL + '/questions'} element={<Questions />} />
     <Route path={process.env.PUBLIC_URL + '/gerund'} element={<Gerund />} />
+    <Route path={process.env.PUBLIC_URL + '/wish-hope'} element={<WishHope />} />
   </Routes>
   </BrowserRouter>
 

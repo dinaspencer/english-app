@@ -334,8 +334,8 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 49,
-    "example": "I’ll drop off the papers later today.\nI often drop off in front of the TV.",
-    "meaning": "To deliver someone or something\nTo fall asleep",
+    "example": "I’ll drop off the papers later today.",
+    "meaning": "To deliver someone or something",
     "phrasalVerb": "drop off"
   },
   {
@@ -454,7 +454,7 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 69,
-    "example": "He had a hard time getting out of Newark because of the snow?",
+    "example": "He had a hard time getting out of Newark because of the snow.",
     "meaning": "To leave",
     "phrasalVerb": "get out"
   },

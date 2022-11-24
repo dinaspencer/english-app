@@ -68,7 +68,13 @@ const topics_cards = [
     {id: 21, "topic": "what things were you taught by your older family members?"},
     {id: 22, "topic": "something I'm eager to do"},
     {id: 23, "topic": "the last time I was furious and what happened"},
-    {id: 24, "topic": "a boundary I need to set in my life"}
+    {id: 24, "topic": "a boundary I need to set in my life"},
+    {id: 25, "topic": "Twitter"},
+    {id: 26, "topic": "Iran"},
+    {id: 27, "topic": "something I can't live without"},
+    {id: 28, "topic": "online/app dating"},
+    {id: 29, "topic": "Vladimir Putin"},
+    {id: 30, "topic": "cryptocurrency"}
   ]
   
     const shuffleCards = topics_cards.sort(() => Math.random() - 0.5);

@@ -162,13 +162,13 @@ const expression_cards = [
       },
       {
         "id": 24,
-        "phrase": "off the beaten track",
-        "definition": "in a place where few people go, far from any main roads and towns"
+        "phrase": "easier said than done",
+        "definition": "Not as easy as it appears to be"
       },
       {
         "id": 25,
-        "phrase": "rule of thumb",
-        "definition": "a method of procedure based on experience and common sense"
+        "phrase": "mean well",
+        "definition": "To intend to be helpful, but unintentionally cause problems instead (usually followed by but...)"
       },
       {
         "id": 26,
@@ -177,8 +177,8 @@ const expression_cards = [
       },
       {
         "id": 27,
-        "phrase": "to blow (something) out of proportion",
-        "definition": "To make something seem more important or negative than it really is; to exaggerate something or focus unnecessary attention on it"
+        "phrase": "the best of both worlds",
+        "definition": "Being able to enjoy two different opportunities at the same time"
       },
       {
         "id": 28,
@@ -251,7 +251,7 @@ const expression_cards = [
   
   
     //TRY AGAIN LATER WITH API
-  //   useEffect(() => {
+  //   useEffect(() => { 
   //     axios.get('https://api.apispreadsheets.com/data/MZBaGSW88gjPEDuA/')
   //     .then(response => {
   

@@ -190,11 +190,7 @@ const expression_cards = [
         "phrase": "a blessing in disguise",
         "definition": "something that seems bad or unlucky at first, but results in something good happening later"
       },
-      {
-        "id": 30,
-        "phrase": "a dime a dozen",
-        "definition": "very common and of no particular value"
-      },
+      
       {
         "id": 31,
         "phrase": "back to square one",
@@ -217,8 +213,8 @@ const expression_cards = [
       },
       {
         "id": 35,
-        "phrase": "go out on a limb",
-        "definition": "To make a large assumption; to risk one’s safety or comfort in an effort to do something positive"
+        "phrase": "elephant in the room",
+        "definition": "An important topic, question, or controversial issue that is obvious or that everyone knows about but no one wants to discuss"
       },
       {
         "id": 36,

@@ -131,16 +131,7 @@ const shuffleCards = gerund_cards.sort(() => Math.random() - 0.5);
 
     const [cards] = useState(shuffleCards);
   
-  
-    //TRY AGAIN LATER WITH API
-  //   useEffect(() => {
-  //     axios.get('https://api.apispreadsheets.com/data/MZBaGSW88gjPEDuA/')
-  //     .then(response => {
-  
-  //      setCards(response.data);
-  //      console.log(response.data)
-  //       .catch(setError);
-  // })}, [])
+  //FETCH DATA FROM JSON
 
   
     return (

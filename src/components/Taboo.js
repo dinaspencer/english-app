@@ -664,6 +664,8 @@ const shuffleCards = taboo_cards.sort(() => Math.random() - 0.5);
     
     const [cards] = useState(shuffleCards);
    
+
+    //FETCH DATA FROM JSON
   
     return (
       <div className="App">

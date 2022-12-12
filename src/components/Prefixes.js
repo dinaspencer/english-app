@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, {  useState } from 'react';
 import './Card.css';
 import { Link } from 'react-router-dom';
 
@@ -37,7 +37,7 @@ const PrefixCard = ({ prefixcard }) => {
 
     return (
         <div className="card-container">
-            {prefixcards.map(prefixcard =>{
+            {prefixcards.map(prefixcard => {
                 return <PrefixCard prefixcard = {prefixcard} key={prefixcard.id} />
             })}
         </div>
@@ -428,18 +428,9 @@ const SAMPLE_CARDS = [ {
 
     const [cards] = useState(SAMPLE_CARDS);
   
-  
-    //TRY AGAIN LATER WITH API
-  //   useEffect(() => {
-  //     axios.get('https://api.apispreadsheets.com/data/MZBaGSW88gjPEDuA/')
-  //     .then(response => {
-  
-  //      setCards(response.data);
-  //      console.log(response.data)
-  //       .catch(setError);
-  // })}, [])
+  //FETCH DATA FROM JSON
 
-  
+
     return (
       <div className="App">
         <PrefixHeader />

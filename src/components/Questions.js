@@ -70,15 +70,7 @@ const question_cards = [
     const [cards] = useState(shuffleCards);
   
   
-    //TRY AGAIN LATER WITH API
-  //   useEffect(() => {
-  //     axios.get('https://api.apispreadsheets.com/data/MZBaGSW88gjPEDuA/')
-  //     .then(response => {
-  
-  //      setCards(response.data);
-  //      console.log(response.data)
-  //       .catch(setError);
-  // })}, [])
+    //FETCH DATA FROM JSON
 
   
     return (

@@ -1,3 +1,7 @@
+English-App is an interactive flashcard app for English learners using React. Reusable components populate with JSON data on clickable cards that flip from one side to another. Cards are set and flipped with useState. The final project is deployed and hosted on Netlify.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

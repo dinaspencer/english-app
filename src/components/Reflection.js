@@ -65,7 +65,10 @@ const reflection_cards = [
     {id: 17, "topic": "did you put up any decorations for Christmas?"},
     {id: 18, "topic": "did you put off buying Christmas presents until the last minute?"},
     {id: 19, "topic": "a breathtaking place you visited in 2022"},
-    {id: 20, "topic": "something new you want to learn"}]
+    {id: 20, "topic": "something new you want to learn"},
+    {id: 21, "topic": "the best advice you received (or gave) in 2022"},
+    {id: 22, "topic": "a bright spot in your 2022"}
+  ]
 
     const shuffleCards = reflection_cards.sort(() => Math.random() - 0.5);
   

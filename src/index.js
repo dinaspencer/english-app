@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Reflection from './components/Reflection';
 import Taboo from './components/Taboo';
 import Prefixes from './components/Prefixes';
 import PhrasalVerbs from './components/PhrasalVerbs';
@@ -18,6 +19,7 @@ root.render(
   <BrowserRouter>
   <Routes>
     <Route path={process.env.PUBLIC_URL + '/'} element={ <App />} />
+    <Route path={process.env.PUBLIC_URL + '/reflection'} element={<Reflection />} />
     <Route path={process.env.PUBLIC_URL + '/taboo'} element={<Taboo />} />
     <Route path={process.env.PUBLIC_URL + '/prefixes'} element={<Prefixes />} />
     <Route path={process.env.PUBLIC_URL + '/phrasalverbs'} element={<PhrasalVerbs />} />

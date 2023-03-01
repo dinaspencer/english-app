@@ -46,67 +46,67 @@ const PhrasalVerbCard = ({ phrasalverbcard }) => {
 
 const phrasalverb_cards = [ {
     "id": 1,
-    "example": "If you want to keep your job here, you must abide by our rules.",
+    "example": "What are some rules you have to abide by at work?",
     "meaning": "To respect or obey a decision, a law or a rule",
     "phrasalVerb": "abide by"
   },
   {
     "id": 2,
-    "example": "I hope you can account for the time you were out!",
+    "example": "Have you ever had to account for a discrepancy in your expense reports?",
     "meaning": "To explain, give a reason",
     "phrasalVerb": "account for"
   },
   {
     "id": 3,
-    "example": "The facts in the case just don’t add up. Those small purchases really start to add up, making it harder to save money.",
+    "example": "What small purchases add up, making it hard for you to save money?",
     "meaning": "To make sense, seem reasonable; To take the sum of many small things",
     "phrasalVerb": "add up"
   },
   {
     "id": 4,
-    "example": "I advise against walking alone in this neighborhood.",
+    "example": "Tell me something you would advise a new colleague against.",
     "meaning": "To recommend not doing something",
     "phrasalVerb": "advise against"
   },
   {
     "id": 5,
-    "example": "I agree with you. I think you should go as well.",
+    "example": "Do you ever pretend to agree with someone, rather than share your true opinion?",
     "meaning": "To have the same opinion as someone else.",
     "phrasalVerb": "agree with"
   },
   {
     "id": 6,
-    "example": "We need to allow for unexpected charges along the way.",
+    "example": "What possible roadblocks do you have to allow for in your daily work?",
     "meaning": "To take into consideration",
     "phrasalVerb": "allow for"
   },
   {
     "id": 7,
-    "example": "He appealed to the court to change its decision.\nA vacation of sunbathing doesn’t appeal to me.",
-    "meaning": "To plead or make a request\nTo be attractive or interesting",
+    "example": "What types of vacation destinations really appeal to you?",
+    "meaning": "To be attractive or interesting",
     "phrasalVerb": "appeal to"
   },
   {
     "id": 8,
-    "example": "He applied for a scholarship for next semester.",
+    "example": "What advice would you give someone who's applying for a job at your company?",
     "meaning": "To make a formal request for something (job, permit, loan etc.)",
     "phrasalVerb": "apply for"
   },
   {
     "id": 9,
-    "example": "When he saw the bear, he backed away in fright.",
+    "example": "Have you ever backed away from a scary animal or situation?",
     "meaning": "To move backwards, in fear or dislike",
     "phrasalVerb": "back away"
   },
   {
     "id": 10,
-    "example": "Local authorities backed down on their threats to build on that part of the beach.",
-    "meaning": "To withdraw, concede defeat",
+    "example": "I wish ______ would back down.",
+    "meaning": "To withdraw, concede defeat, or admit being wrong",
     "phrasalVerb": "back down"
   },
   {
     "id": 11,
-    "example": "I’m going to be very strict with him. I hope you’ll back me up on this?\nYou should back up all your computer files in a secure location.",
+    "example": "A time when you needed someone to back you up",
     "meaning": "To give support or encouragement\nTo make a copy of (file, program, etc.)",
     "phrasalVerb": "back up"
   },
@@ -118,25 +118,25 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 13,
-    "example": "Jenna fell in the parking lot and blacked out.",
+    "example": "Have you ever blacked out?",
     "meaning": "To faint, lose consciousness",
     "phrasalVerb": "black out"
   },
   {
     "id": 14,
-    "example": "The police blocked off the street after the explosion.",
+    "example": "How often do you encounter roads that are blocked off during your commute?",
     "meaning": "To separate using a barrier.",
     "phrasalVerb": "block off"
   },
   {
     "id": 15,
-    "example": "Don’t blow up at me. It’s not my fault.",
+    "example": "A time when you blew up at someone and then regretted it",
     "meaning": "To explode or to get angry",
     "phrasalVerb": "blow up"
   },
   {
     "id": 16,
-    "example": "It all boils down to who has more power.",
+    "example": "Agree or disagree: It all boils down to who has more power.",
     "meaning": "To be summarized as",
     "phrasalVerb": "boil down to"
   },
@@ -154,145 +154,145 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 19,
-    "example": "The washing machine broke down so we had to call in the repair technician.\nJohn broke down when he heard the news.",
+    "example": "Tell me about a time when something of yours (a machine, car, etc) broke down.",
     "meaning": "To go out of order, cease to function\nTo lose control of one’s emotions",
     "phrasalVerb": "break down"
   },
   {
     "id": 20,
-    "example": "Burglars broke into my car last night.",
+    "example": "Has your house ever been broken into?",
     "meaning": "To enter by force",
     "phrasalVerb": "break into"
   },
   {
     "id": 21,
-    "example": "Rioting broke out after the government raised the fuel prices again.",
+    "example": "What would you do if violence broke out in your neighborhood?",
     "meaning": "To start suddenly",
     "phrasalVerb": "break out"
   },
-  {
-    "id": 22,
-    "example": "Several prisoners broke out of jail.",
-    "meaning": "To escape from a place by force",
-    "phrasalVerb": "break out of"
-  },
+  // {
+  //   "id": 22,
+  //   "example": "Several prisoners broke out of jail.",
+  //   "meaning": "To escape from a place by force",
+  //   "phrasalVerb": "break out of"
+  // },
   {
     "id": 23,
-    "example": "She broke up with Daniel after dating him for five years.",
+    "example": "Tell me about a person you broke up with, and why.",
     "meaning": "To come to an end (marriage, relationship)",
     "phrasalVerb": "break up"
   },
   {
     "id": 24,
-    "example": "Sara is bringing up her children by herself.",
+    "example": "What are the hardest things about bringing up kids in today's world?",
     "meaning": "To raise (a child)",
     "phrasalVerb": "bring up"
   },
   {
     "id": 25,
-    "example": "I must brush up on my French before going to Paris next month.",
+    "example": "A skill you'd like to brush up on this year",
     "meaning": "To improve, refresh one’s knowledge of something",
     "phrasalVerb": "brush up on"
   },
   {
     "id": 26,
-    "example": "I bumped into Adam at the bank. He says “hello”.",
+    "example": "How often do you bump into acquaintances or friends?",
     "meaning": "To meet by chance or unexpectedly",
     "phrasalVerb": "bump into"
   },
   {
     "id": 27,
-    "example": "The light bulb burnt out. Please change it.\nShe needs to work fewer hours. Otherwise she will burn out.",
-    "meaning": "stop (something) working\nbecome exhausted from over-working",
+    "example": "Have you ever been close to burning out? What do you do to avoid burning out?",
+    "meaning": "become exhausted from over-working",
     "phrasalVerb": "burn out"
   },
   {
     "id": 28,
-    "example": "Could please call back in ten minutes?",
+    "example": "How often do you have to call people back during a normal day?",
     "meaning": "To return a phone call",
     "phrasalVerb": "call back"
   },
   {
     "id": 29,
-    "example": "The game was called off because of bad weather.",
+    "example": "A meeting or event that was called off... and were you secretly glad it was called off?",
     "meaning": "To cancel",
     "phrasalVerb": "call off"
   },
   {
     "id": 30,
-    "example": "It took Kylie several hours to calm down after she saw the accident.",
+    "example": "Which member of your family do you help to calm down the most?",
     "meaning": "To become more relaxed, less angry or upset",
     "phrasalVerb": "calm down"
   },
   {
     "id": 31,
-    "example": "The soldiers carried on walking in order to get to their post before dark.",
+    "example": "An activity you plan to carry on doing this year",
     "meaning": "To continue",
     "phrasalVerb": "carry on"
   },
   {
     "id": 32,
-    "example": "His orders were carried out to the letter.\nThat company does not carry out tests on animals.",
+    "example": "Does your company carry out testing on animals?",
     "meaning": "To do something as specified (a plan, an order, a threat)\nTo perform or conduct (test, experiment)",
     "phrasalVerb": "carry out"
   },
   {
     "id": 33,
-    "example": "They said I must check in at least three hours before my flight.",
+    "example": "Tell me about a negative experience you had when checking in - either to a hotel or a flight.",
     "meaning": "To register at a hotel or airport",
     "phrasalVerb": "check in"
   },
   {
     "id": 34,
-    "example": "Donna checked out of the hotel this morning.\nI don’t know if this price is correct. I’ll check it out online.",
+    "example": "Have you ever forgotten to check out of a hotel?",
     "meaning": "To pay one’s bill and leave (a hotel)\nTo investigate",
     "phrasalVerb": "check out"
   },
   {
     "id": 35,
-    "example": "When the police started asking questions, the suspect clammed up.",
-    "meaning": "To refuse to speak",
+    "example": "Have you ever clammed up in an English-speaking meeting?",
+    "meaning": "To become nervous and refuse to speak",
     "phrasalVerb": "clam up"
   },
   {
     "id": 36,
-    "example": "The local authorities have decided to crack down on illegal parking in handicapped parking places.",
+    "example": "Something you think the government or police should crack down on.",
     "meaning": "To act strictly to prevent something",
     "phrasalVerb": "crack down on"
   },
   {
     "id": 37,
-    "example": "I was cleaning up and came across some old photos of you.\nThe politician came across as a complete fool during the TV interview.",
+    "example": "Have you ever come across old photos or objects while cleaning your house?",
     "meaning": "To find by chance\nTo appear, seem, make an impression",
     "phrasalVerb": "come across"
   },
   {
     "id": 38,
-    "example": "Has the owner of the winning lotto ticket come forward?",
-    "meaning": "To present oneself",
+    "example": "Have you ever had to come forward in an investigation?",
+    "meaning": "To offer to give help or information",
     "phrasalVerb": "come forward"
   },
   {
     "id": 39,
-    "example": "You can count on me to keep your secret.",
+    "example": "Someone you really count on",
     "meaning": "To rely or depend on (for help)",
     "phrasalVerb": "count on"
   },
   {
     "id": 40,
-    "example": "I’ve decided to cut down on the amount of sweets I eat.",
+    "example": "Something you always say you're going to cut down on",
     "meaning": "To reduce in number or size",
     "phrasalVerb": "cut down on"
   },
   {
     "id": 41,
-    "example": "She cut out a coupon from the newspaper.\nYou need to cut out all red meat from your diet.",
-    "meaning": "To remove using scissors\nTo stop doing something",
+    "example": "Do you think humans should cut out meat consumption?",
+    "meaning": "To remove using scissors\nTo completely stop doing something",
     "phrasalVerb": "cut out"
   },
   {
     "id": 42,
-    "example": "Catherine is not good at dealing with stress.",
+    "example": "What are some ways you deal with stress?",
     "meaning": "To handle, take care of (problem, situation)",
     "phrasalVerb": "deal with"
   },
@@ -304,97 +304,97 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 44,
-    "example": "She didn’t get a salary this month, so she’ll have to do without extra treats.",
+    "example": "Something you had to do without when you first started your career or lived on your own.",
     "meaning": "To manage without",
     "phrasalVerb": "do without"
   },
   {
     "id": 45,
-    "example": "The suspect’s trial dragged on longer than we had expected!",
+    "example": "Tell me about a recent meeting that dragged on.",
     "meaning": "To last longer than expected",
     "phrasalVerb": "drag on"
   },
   {
     "id": 46,
-    "example": "They drew up a contract and had me sign it.",
+    "example": "Do you draw up contracts as part of your normal job?",
     "meaning": "To write (contract, agreement, document)",
     "phrasalVerb": "draw up"
   },
   {
     "id": 47,
-    "example": "Their wedding gave us a chance to dress up and get out of the house.",
+    "example": "When was the last time you dressed up? What did you wear?",
     "meaning": "wear elegant clothes",
     "phrasalVerb": "dress up"
   },
   {
     "id": 48,
-    "example": "Why don’t you drop in to see us on your way home?",
+    "example": "Someone who you like dropping in to visit when you have time",
     "meaning": "To visit, usually on the way somewhere",
     "phrasalVerb": "drop in"
   },
   {
     "id": 49,
-    "example": "I’ll drop off the papers later today.",
+    "example": "Do you still have to drop your kids off at school?",
     "meaning": "To deliver someone or something",
     "phrasalVerb": "drop off"
   },
   {
     "id": 50,
-    "example": "Zack dropped out of college and joined the army.",
+    "example": "Do you know anyone who dropped out of school or university? What are they doing now?",
     "meaning": "To leave school without finishing",
     "phrasalVerb": "drop out"
   },
   {
     "id": 51,
-    "example": "Traffic usually eases off about 7pm",
+    "example": "What time does Madrid traffic start easing off?",
     "meaning": "To reduce, become less severe or slow down (pain, traffic, work)",
     "phrasalVerb": "ease off"
   },
   {
     "id": 52,
-    "example": "Her marriage ended in divorce.",
+    "example": "Do you know anyone whose marriage ended in divorce?",
     "meaning": "To finish in a certain way; result in",
     "phrasalVerb": "end in"
   },
   {
     "id": 53,
-    "example": "If you don’t improve your work habits, you’ll end up being fired.",
-    "meaning": "To finally reach a state, place or action",
+    "example": "A person who you ended up becoming friends with, who you didn't expect.",
+    "meaning": "To finally reach a state, place or action, usually by surprise or accident",
     "phrasalVerb": "end up"
   },
   {
     "id": 54,
-    "example": "His plans to trek through South America fell through when he got sick.",
+    "example": "Tell me about a time when your travel plans fell through.",
     "meaning": "To fail; doesn’t happen",
     "phrasalVerb": "fall through"
   },
   {
     "id": 55,
-    "example": "He’s trying to figure out how to earn enough money to go on the trip to Spain.",
+    "example": "Something your kids/family figured out much faster than you",
     "meaning": "To understand, find the answer",
     "phrasalVerb": "figure out"
   },
   {
     "id": 56,
-    "example": "Please fill out the enclosed form and return it as soon as possible.",
+    "example": "Do you hate filling out forms? Why or why not?",
     "meaning": "To complete (a form/an application)",
     "phrasalVerb": "fill out"
   },
   {
     "id": 57,
-    "example": "I’m going to to find out who’s responsible for the power cut.",
+    "example": "Have you found out anything interesting about a neighbor or colleague?",
     "meaning": "To discover or obtain information",
     "phrasalVerb": "find out"
   },
   {
     "id": 58,
-    "example": "Tom had difficultty focusing on work the day before his holiday started.",
+    "example": "When is it hard for you to focus on your work?",
     "meaning": "To concentrate on something",
     "phrasalVerb": "focus on"
   },
   {
     "id": 59,
-    "example": "It’s important to get along with your team supervisor.",
+    "example": "A person who you really get along with, and a person you don't get along with",
     "meaning": "To be on good terms; work well with",
     "phrasalVerb": "get along (with)"
   },
@@ -406,217 +406,217 @@ const phrasalverb_cards = [ {
   // },
   {
     "id": 61,
-    "example": "I think we should get away for the weekend.",
+    "example": "Your favorite place to get away for a weekend",
     "meaning": "To escape",
     "phrasalVerb": "get away"
   },
   {
     "id": 62,
-    "example": "Students without jobs have a hard time getting by.",
-    "meaning": "To manage to cope or to survive",
+    "example": "How long do you think you could get by without a job?",
+    "meaning": "To be able to live or deal with a situation by having very little of something you need, such as money",
     "phrasalVerb": "get by"
   },
   {
     "id": 63,
-    "example": "When did you get in last night?",
+    "example": "The first thing you do when you get in the car each day",
     "meaning": "To enter",
     "phrasalVerb": "get in"
   },
-  {
-    "id": 64,
-    "example": "How did you get into your car without the keys?",
-    "meaning": "To enter",
-    "phrasalVerb": "get into (+noun)"
-  },
+  // {
+  //   "id": 64,
+  //   "example": "How did you get into your car without the keys?",
+  //   "meaning": "To enter",
+  //   "phrasalVerb": "get into (+noun)"
+  // },
   {
     "id": 65,
-    "example": "You should get off the train in Kings Heath.\nI can’t get the ink stain off my shirt.",
-    "meaning": "To leave (bus, train, plane)\nTo remove",
+    "example": "Have you ever forgotten to get off a train or bus at the stop you wanted?",
+    "meaning": "To leave (bus, train, plane)",
     "phrasalVerb": "get off"
   },
   {
     "id": 66,
-    "example": "I’m trying to get on the flight to Brussels.",
+    "example": "Do you switch your phone to airplane mode when you get on a flight?",
     "meaning": "To board (bus, train, plane)",
     "phrasalVerb": "get on"
   },
-  {
-    "id": 67,
-    "example": "After they split up, she had a hard time getting on with her life.",
-    "meaning": "To continue to do; make progress",
-    "phrasalVerb": "get on with (something)"
-  },
+  // {
+  //   "id": 67,
+  //   "example": "After they split up, she had a hard time getting on with her life.",
+  //   "meaning": "To continue to do; make progress",
+  //   "phrasalVerb": "get on with (something)"
+  // },
   {
     "id": 68,
-    "example": "He doesnt get on very well with the other members of the committee.",
+    "example": "A group of people you get on well with",
     "meaning": "To have a good relationship with",
     "phrasalVerb": "get on (well) with (somebody)"
   },
-  {
-    "id": 69,
-    "example": "He had a hard time getting out of Newark because of the snow.",
-    "meaning": "To leave",
-    "phrasalVerb": "get out"
-  },
+  // {
+  //   "id": 69,
+  //   "example": "He had a hard time getting out of Newark because of the snow.",
+  //   "meaning": "To leave",
+  //   "phrasalVerb": "get out"
+  // },
   {
     "id": 70,
-    "example": "Edna’s trying to get out of working the night shift.",
+    "example": "A time when you tried to get out of a meeting or responsibility",
     "meaning": "To avoid doing something",
     "phrasalVerb": "get out of"
   },
   {
     "id": 71,
-    "example": "Has she gotten over the flu?",
+    "example": "The last time you got over an illness",
     "meaning": "To recover from (illness, disappointment)",
     "phrasalVerb": "get over"
   },
   {
     "id": 72,
-    "example": "All right, let's get this colonoscopy over with.",
+    "example": "Tell me about a task (medical, or work) you need to get over with.",
     "meaning": "To finish an unpleasant task",
     "phrasalVerb": "get (something) over with"
   },
   {
     "id": 73,
-    "example": "Please get rid of that old t-shirt. It’s so ragged.",
+    "example": "How often do you get rid of clothes you don't wear anymore?",
     "meaning": "To eliminate",
     "phrasalVerb": "get rid of"
   },
   {
     "id": 74,
-    "example": "Let’s get together for your birthday on Saturday.",
+    "example": "Does your entire family get together very often?",
     "meaning": "To meet each other",
     "phrasalVerb": "get together"
   },
   {
     "id": 75,
-    "example": "Will you please get up? You’ve got a class in 20 minutes.",
+    "example": "How long do you actually get up after waking up?",
     "meaning": "To rise, leave bed",
     "phrasalVerb": "get up"
   },
   {
     "id": 76,
-    "example": "We will never give in to the terrorists’ demands.\nI’ll give in my paper tomorrow.",
-    "meaning": "To cease opposition; yield\nTo To hand in; submit",
+    "example": "Do you think parents give in too easily to their children's demands?",
+    "meaning": "To cease opposition; yield",
     "phrasalVerb": "give in"
   },
   {
     "id": 77,
-    "example": "Morris gave up drinking 10 years ago.",
+    "example": "A habit you gave up or you want to give up",
     "meaning": "To stop doing something",
     "phrasalVerb": "give up"
   },
   {
     "id": 78,
-    "example": "Andy went through a lot of pain after his mother died.",
+    "example": "A tough situation you went through in the last year",
     "meaning": "To experience",
     "phrasalVerb": "go through"
   },
   {
     "id": 79,
-    "example": "He’s like Peter Pan. He never really grew up at all.",
+    "example": "Agree or disagree: Women grow up faster than men.",
     "meaning": "To spend one’s childhood; develop; become an adult",
     "phrasalVerb": "grow up"
   },
-  {
-    "id": 80,
-    "example": "Please hand in your papers before Friday.",
-    "meaning": "To submit (report, homework)",
-    "phrasalVerb": "hand in"
-  },
-  {
-    "id": 81,
-    "example": "Susan volunteered at the shelter where she handed out warm clothes.",
-    "meaning": "To distribute",
-    "phrasalVerb": "hand out"
-  },
+  // {
+  //   "id": 80,
+  //   "example": "Please hand in your papers before Friday.",
+  //   "meaning": "To submit (report, homework)",
+  //   "phrasalVerb": "hand in"
+  // },
+  // {
+  //   "id": 81,
+  //   "example": "Susan volunteered at the shelter where she handed out warm clothes.",
+  //   "meaning": "To distribute",
+  //   "phrasalVerb": "hand out"
+  // },
   {
     "id": 82,
-    "example": "Which pub does the team hang out at after the game?",
+    "example": "Where is your favorite place to hang out?",
     "meaning": "To spend time in a particular place or with a group of friends",
     "phrasalVerb": "hang out"
   },
   {
     "id": 83,
-    "example": "If you hang up now, I’ll never speak to you again.",
+    "example": "What's the first thing you're going to do after we hang up today?",
     "meaning": "To end a phone conversation",
     "phrasalVerb": "hang up"
   },
   {
     "id": 84,
-    "example": "I wanted to become an architect, but my bad grades held me back.",
+    "example": "Is there anything holding you back from achieving success?",
     "meaning": "To prevent someone from doing something",
     "phrasalVerb": "hold back"
   },
-  {
-    "id": 85,
-    "example": "Please hold on and a representative will answer your call.\nShe was so scared on the rollercoaster ride that she held on for dear life.",
-    "meaning": "To wait\nTo grip tightly",
-    "phrasalVerb": "hold on"
-  },
+  // {
+  //   "id": 85,
+  //   "example": "Please hold on and a representative will answer your call.\nShe was so scared on the rollercoaster ride that she held on for dear life.",
+  //   "meaning": "To wait\nTo grip tightly",
+  //   "phrasalVerb": "hold on"
+  // },
   {
     "id": 86,
-    "example": "Hurry up and finish your lunch or we’ll miss the train.",
+    "example": "How often do you have to tell your kids or family to hurry up?",
     "meaning": "To be quick, act speedily",
     "phrasalVerb": "hurry up"
   },
   {
     "id": 87,
-    "example": "The two countries met at the conference to iron out their differences.",
-    "meaning": "To resolve by discussion, eliminate differences",
+    "example": "Some issues your company needs to iron out",
+    "meaning": "To remove problems or find solutions",
     "phrasalVerb": "iron out"
   },
   {
     "id": 88,
-    "example": "Yes David, you can join in the discussion any time you like.",
+    "example": "Do you feel nervous joining in a meeting or group conversation in English?",
     "meaning": "To participate",
     "phrasalVerb": "join in"
   },
   {
     "id": 89,
-    "example": "Tom and Alex really hit it off last night, I think they'll go on a second date.",
+    "example": "A celebrity you think you would hit it off with",
     "meaning": "To have a good relationship from the first moment of meeting someone",
     "phrasalVerb": "hit it off"
   },
-  {
-    "id": 90,
-    "example": "If you keep on making that noise I will get annoyed.",
-    "meaning": "To continue doing something",
-    "phrasalVerb": "keep on"
-  },
+  // {
+  //   "id": 90,
+  //   "example": "If you keep on making that noise I will get annoyed.",
+  //   "meaning": "To continue doing something",
+  //   "phrasalVerb": "keep on"
+  // },
   {
     "id": 91,
-    "example": "I read the paper every day to keep up with the news.",
+    "example": "Do you keep up with the news? Why or why not?",
     "meaning": "To stay at the same level as someone or something",
     "phrasalVerb": "keep up with"
   },
   {
     "id": 92,
-    "example": "The rugby match kicked off at 3 o’clock.",
+    "example": "Use 'kick off' to talk about your work.",
     "meaning": "To begin, start",
     "phrasalVerb": "kick off"
   },
   {
     "id": 93,
-    "example": "Please check your form again and make sure nothing is left out.",
+    "example": "What information do you (now, or when you were younger) usually leave out when talking to your parents?",
     "meaning": "To omit, not mention",
     "phrasalVerb": "leave out"
   },
   {
     "id": 94,
-    "example": "I feel so let down because they promised me a puppy but all I got was a doll.",
+    "example": "A time when you felt let down",
     "meaning": "To disappoint",
     "phrasalVerb": "let down"
   },
   {
     "id": 95,
-    "example": "Andy can you look after your sister until I get back?",
+    "example": "Do you need to look after older family members? Do you have any help with this?",
     "meaning": "To take care of",
     "phrasalVerb": "look after"
   },
   {
     "id": 96,
-    "example": "She’s such a snob. She always looks down on anyone who is poor.",
+    "example": "Is it ever okay to look down on others?",
     "meaning": "To consider as inferior",
     "phrasalVerb": "look down on"
   },
@@ -628,49 +628,49 @@ const phrasalverb_cards = [ {
   // },
   {
     "id": 98,
-    "example": "Harry went to the shop to look for a new computer.",
+    "example": "Are you looking for anything new for your house?",
     "meaning": "To try to find something",
     "phrasalVerb": "look for"
   },
   {
     "id": 99,
-    "example": "I’m looking forward to my birthday. It’s in two days time.",
+    "example": "An event or situation you are looking forward to",
     "meaning": "To await or anticipate with pleasure",
     "phrasalVerb": "look forward to"
   },
   {
     "id": 100,
-    "example": "I always looked up to my father. He was a great man.",
+    "example": "Who did you look up to when you were younger? What about now?",
     "meaning": "To admire",
     "phrasalVerb": "look up to"
   },
   {
     "id": 101,
-    "example": "It’s not nice to make fun of people in wheelchairs.",
+    "example": "Agree or disagree: It’s not nice to make fun of people.",
     "meaning": "To laugh at/ make jokes about",
     "phrasalVerb": "make fun of"
   },
   {
     "id": 102,
-    "example": "That’s a good excuse. Did you make up it up yourself?",
+    "example": "Have you ever made up an excuse as to why you arrived somewhere late?",
     "meaning": "To invent (excuse, story)",
     "phrasalVerb": "make up"
   },
-  {
-    "id": 103,
-    "example": "She had so many cats that she kept mixing up their names.",
-    "meaning": "To mistake one thing or person for another",
-    "phrasalVerb": "mix up"
-  },
+  // {
+  //   "id": 103,
+  //   "example": "She had so many cats that she kept mixing up their names.",
+  //   "meaning": "To mistake one thing or person for another",
+  //   "phrasalVerb": "mix up"
+  // },
   {
     "id": 104,
-    "example": "Did you hear? Our new neighbors are moving in this afternoon.",
+    "example": "When did you move into your current house?",
     "meaning": "To arrive in a new home or office",
-    "phrasalVerb": "move in"
+    "phrasalVerb": "move in/into"
   },
   {
     "id": 105,
-    "example": "When are you moving out? We need your office for the new guy.",
+    "example": "Do you think you'll ever move out of your house?",
     "meaning": "To leave your home/office for another one.",
     "phrasalVerb": "move out"
   },
@@ -682,97 +682,97 @@ const phrasalverb_cards = [ {
   // },
   {
     "id": 107,
-    "example": "Wow, those private lessons have really paid off—your Spanish sounds totally fluent!",
+    "example": "A habit or investment that has really paid off",
     "meaning": "To yield profits or benefits following an investment (of time, money, energy, etc.).",
     "phrasalVerb": "pay off"
   },
   {
     "id": 108,
-    "example": "Your grandfather passed away peacefully in his sleep last night.",
+    "example": "How many years ago did your grandparents pass away?",
     "meaning": "To die",
     "phrasalVerb": "pass away"
   },
   {
     "id": 109,
-    "example": "He didn’t drink enough water so he passed out at the end of the race.",
+    "example": "Have you ever passed out or almost passed out?",
     "meaning": "To faint",
     "phrasalVerb": "pass out"
   },
-  {
-    "id": 110,
-    "example": "I’ll pay you back as soon as I get the loan.",
-    "meaning": "To reimburse",
-    "phrasalVerb": "pay back"
-  },
+  // {
+  //   "id": 110,
+  //   "example": "I’ll pay you back as soon as I get the loan.",
+  //   "meaning": "To reimburse",
+  //   "phrasalVerb": "pay back"
+  // },
   {
     "id": 111,
-    "example": "Don’t put off until tomorrow, what you can do today.",
+    "example": "What types of tasks do you usually put off?",
     "meaning": "To postpone, arrange a later date",
     "phrasalVerb": "put off"
   },
   {
     "id": 112,
-    "example": "It’s very dark in here. Please put on the light on.",
-    "meaning": "To turn on, switch on",
+    "example": "Did you need to put on a coat or jacket this morning?",
+    "meaning": "To put a piece of clothing on your body",
     "phrasalVerb": "put on"
   },
   {
     "id": 113,
-    "example": "The fire fighters were able to put out the fire in ten minutes.",
-    "meaning": "To extinguish",
+    "example": "True or false: my job involves putting out fires.",
+    "meaning": "To extinguish; to deal with urgent matters",
     "phrasalVerb": "put out"
   },
   {
     "id": 114,
-    "example": "I can put you up until the weekend but then I’m going away.",
-    "meaning": "To accommodate, give somebody a bed",
+    "example": "When was the last time you put somebody up?",
+    "meaning": "To accommodate, give somebody a bed in your house",
     "phrasalVerb": "put up"
   },
   {
     "id": 115,
-    "example": "I'm not sure how Paz is able to put up with Janice’s cynical attitude.",
+    "example": "What types of attitudes or behaviors do you refuse to put up with?",
     "meaning": "To tolerate or condone",
     "phrasalVerb": "put up with"
   },
   {
     "id": 116,
-    "example": "I’ll pick you up at around 7:00 to take you to the airport.",
+    "example": "Do you share responsibilities with your partner for picking up your kids?",
     "meaning": "To collect somebody",
     "phrasalVerb": "pick up"
   },
   {
     "id": 117,
-    "example": "As I already pointed out, there was a mistake in your calculation.",
+    "example": "A mistake you pointed out, or that somebody else pointed out to you",
     "meaning": "To indicate/direct attention to something",
     "phrasalVerb": "point out"
   },
-  {
-    "id": 118,
-    "example": "You can rely on me. I always arrive on time.",
-    "meaning": "To count on, depend on, trust",
-    "phrasalVerb": "rely on"
-  },
+  // {
+  //   "id": 118,
+  //   "example": "You can rely on me. I always arrive on time.",
+  //   "meaning": "To count on, depend on, trust",
+  //   "phrasalVerb": "rely on"
+  // },
   {
     "id": 119,
-    "example": "Since he had a sound alibi, the police ruled him out as a suspect.",
-    "meaning": "To eliminate",
+    "example": "Some countries you've ruled out for your travel plans",
+    "meaning": "To exclude, eliminate or make impossible",
     "phrasalVerb": "rule out"
   },
   {
     "id": 120,
-    "example": "He ran away from home and joined the circus.",
+    "example": "If you ran away from home, where would you go?",
     "meaning": "To escape from a place or suddenly leave",
     "phrasalVerb": "run away"
   },
-  {
-    "id": 121,
-    "example": "I’m so glad I ran into you. I need to ask you something.",
-    "meaning": "To meet by accident or unexpectedly (also: bump into)",
-    "phrasalVerb": "run into"
-  },
+  // {
+  //   "id": 121,
+  //   "example": "I’m so glad I ran into you. I need to ask you something.",
+  //   "meaning": "To meet by accident or unexpectedly (also: bump into)",
+  //   "phrasalVerb": "run into"
+  // },
   {
     "id": 122,
-    "example": "We’ve run out of milk. I’ll just pop next door to borrow some.",
+    "example": "Something in your kitchen that you're running out of, and who's going to buy more",
     "meaning": "To have no more of something.",
     "phrasalVerb": "run out of"
   },
@@ -784,43 +784,43 @@ const phrasalverb_cards = [ {
   // },
   {
     "id": 124,
-    "example": "They set up their own company when they were still in high school.",
+    "example": "What kind of company would you set up if you had unlimited funds?",
     "meaning": "To start a business",
     "phrasalVerb": "set up"
   },
   {
     "id": 125,
-    "example": "Don’t buy that. Let’s shop around and see if we can find something cheaper.",
+    "example": "What products do you shop around for?",
     "meaning": "To compare prices",
     "phrasalVerb": "shop around"
   },
   {
     "id": 126,
-    "example": "Panya didn’t need to shoot so many three-pointers; she was just showing off. ",
+    "example": "Have you ever met or seen someone who loved to show off?",
     "meaning": "deliberately display abilities or accomplishments in order to impress people",
     "phrasalVerb": "show off"
   },
   {
     "id": 127,
-    "example": "I don’t think she’ll show up tonight. Her daughter is sick.",
+    "example": "Agree or disagree: it's important to show up on time, always.",
     "meaning": "To appear/arrive",
     "phrasalVerb": "show up"
   },
-  {
-    "id": 128,
-    "example": "Shut up, you’re spoiling the movie!",
-    "meaning": "To be silent, stop talking",
-    "phrasalVerb": "shut up (impolite)"
-  },
-  {
-    "id": 129,
-    "example": "I think you should sit down. It’s bad news.",
-    "meaning": "To take a seat",
-    "phrasalVerb": "sit down"
-  },
+  // {
+  //   "id": 128,
+  //   "example": "Shut up, you’re spoiling the movie!",
+  //   "meaning": "To be silent, stop talking",
+  //   "phrasalVerb": "shut up (impolite)"
+  // },
+  // {
+  //   "id": 129,
+  //   "example": "I think you should sit down. It’s bad news.",
+  //   "meaning": "To take a seat",
+  //   "phrasalVerb": "sit down"
+  // },
   {
     "id": 130,
-    "example": "The whole stadium stood up for the national anthem.",
+    "example": "How often do you stand up from your desk during the day?",
     "meaning": "To rise from a sitting position",
     "phrasalVerb": "stand up"
   },
@@ -832,106 +832,106 @@ const phrasalverb_cards = [ {
   // },
   {
     "id": 132,
-    "example": "Angie really takes after her grandmother.",
+    "example": "Which of your parents do you take after the most?",
     "meaning": "To resemble, in appearance or character",
     "phrasalVerb": "take after"
   },
-  {
-    "id": 133,
-    "example": "Please take care of my cat when I’m away.",
-    "meaning": "To look after",
-    "phrasalVerb": "take care of"
-  },
+  // {
+  //   "id": 133,
+  //   "example": "Please take care of my cat when I’m away.",
+  //   "meaning": "To look after",
+  //   "phrasalVerb": "take care of"
+  // },
   {
     "id": 134,
-    "example": "The plane will take off as soon as the fog lifts.",
-    "meaning": "To leave the ground",
+    "example": "Do you think your company's newest products will take off?",
+    "meaning": "To leave the ground; to remove (clothing); to start to be very successful",
     "phrasalVerb": "take off"
   },
-  {
-    "id": 135,
-    "example": "I hear they’re taking on extra staff for this event.",
-    "meaning": "To hire or engage staff",
-    "phrasalVerb": "take on"
-  },
-  {
-    "id": 136,
-    "example": "Please take out your mobile phones and turn them off.",
-    "meaning": "To remove; extract",
-    "phrasalVerb": "take out"
-  },
+  // {
+  //   "id": 135,
+  //   "example": "I hear they’re taking on extra staff for this event.",
+  //   "meaning": "To hire or engage staff",
+  //   "phrasalVerb": "take on"
+  // },
+  // {
+  //   "id": 136,
+  //   "example": "Please take out your mobile phones and turn them off.",
+  //   "meaning": "To remove; extract",
+  //   "phrasalVerb": "take out"
+  // },
   {
     "id": 137,
-    "example": "My sister talked me into going to the Backstreet Boys concert last weekend.",
+    "example": "Tell me about a time someone talked you into doing something you didn't really want to do.",
     "meaning": "To convince someone to do something",
     "phrasalVerb": "talk someone into"
   },
   {
     "id": 138,
-    "example": "I tried to talk Susan out of signing up for that multilevel marketing scheme, but she did it anyway.",
+    "example": "Tell me about a time someone talked you out of doing something you were thinking about doing.",
     "meaning": "To convince someone not to do something",
     "phrasalVerb": "talk someone out of"
   },
   {
     "id": 139,
-    "example": "The coach told her off for not trying hard enough.",
+    "example": "In your family, is it considered normal or rude to tell others off?",
     "meaning": "To reprimand/criticize severely",
     "phrasalVerb": "tell off"
   },
   {
     "id": 140,
-    "example": "Take your time and think it over before you decide.",
+    "example": "Something you need to think over before you make up your mind",
     "meaning": "To consider",
     "phrasalVerb": "think over"
   },
   {
     "id": 141,
-    "example": "We are screening out job applicants who have less than three years' experience.",
+    "example": "Which qualities would you screen out in potential job candidates?",
     "meaning": "To remove (someone or something that is not suitable for a particular purpose) from a group that is being examined.",
     "phrasalVerb": "screen out"
   },
   {
     "id": 142,
-    "example": "Go ahead, try it on and see if it fits?",
+    "example": "Do you try on clothes in the shop or do you wait until you get home?",
     "meaning": "To wear something to see if it suits or fits",
     "phrasalVerb": "try on"
   },
   {
     "id": 143,
-    "example": "I asked her out but she turned me down flat.",
-    "meaning": "To refuse",
+    "example": "An opportunity you turned down, and do you regret it?",
+    "meaning": "To refuse; to decrease the volume",
     "phrasalVerb": "turn down"
   },
   {
     "id": 144,
-    "example": "Your parents used up all the coffee!",
+    "example": "In your house, what happens when the toilet paper is used up?",
     "meaning": "To finish a product (so that there’s none left)",
     "phrasalVerb": "use up"
   },
   {
     "id": 145,
-    "example": "Watch out! There’s a dog in the road.",
+    "example": "Things to watch out for when traveling abroad",
     "meaning": "To be careful",
     "phrasalVerb": "watch out"
   },
   {
     "id": 146,
-    "example": "Julie wore out her shoes running the marathons.\nJulie was worn out after all that running.",
+    "example": "What types of activities wear you out?",
     "meaning": "To become unusable\nTo become very tired",
     "phrasalVerb": "wear out"
   },
   {
     "id": 147,
-    "example": "You should work out twice a week at the gym.\nCan you work this out? I’m no good at math.",
-    "meaning": "To do physical exercise\nTo find a solution or calculate something",
+    "example": "Are you a person who usually thinks that things will work out in the end?",
+    "meaning": "To do physical exercise; to end well",
     "phrasalVerb": "work out"
   },
-  {
-    "id": 148,
-    "example": "I’ll wash up if you wipe off the table.",
-    "meaning": "To clean (board, table).",
-    "phrasalVerb": "wipe off"
-  }
+  // {
+  //   "id": 148,
+  //   "example": "I’ll wash up if you wipe off the table.",
+  //   "meaning": "To clean (board, table).",
+  //   "phrasalVerb": "wipe off"
+  // }
 ]
 
 const shuffleCards = phrasalverb_cards.sort(() => Math.random() - 0.5);

@@ -490,7 +490,7 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 75,
-    "example": "How long do you actually get up after waking up?",
+    "example": "How long does it take for you to get up after waking up?",
     "meaning": "To rise, leave bed",
     "phrasalVerb": "get up"
   },

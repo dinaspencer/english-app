@@ -185,7 +185,7 @@ const phrasalverb_cards = [ {
   {
     "id": 24,
     "example": "What are the hardest things about bringing up kids in today's world?",
-    "meaning": "To raise (a child)",
+    "meaning": "To raise (a child), To introduce a topic of conversation",
     "phrasalVerb": "bring up"
   },
   {

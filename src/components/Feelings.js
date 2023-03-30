@@ -134,12 +134,12 @@ const feelings_cards = [
         {
           "id": 18,
           "answer": "On a scale of 1 to 10, how stressful is your job?",
-          "question": "On a scale of 1 to 10, how (stressed/stressful) is your job?"
+          "question": "On a scale of 1 to 10, how (stressed/stressful/stressing) is your job?"
         },
         {
           "id": 19,
           "answer": "A situation that made you feel stressed in the last few weeks",
-          "question": "A situation that made you feel (stressed/stressful) in the last few weeks"
+          "question": "A situation that made you feel (stressed/stressful/stressing) in the last few weeks"
         },
       
         {

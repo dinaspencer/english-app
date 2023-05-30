@@ -22,10 +22,10 @@ const FalseFriendsCard = ({ falsefriendscard }) => {
         <div className="card-container">
             <div className= {`card ${flip ? 'flip' : ''}`} onClick={() => setFlip(!flip)}>
               <div className="front">
-              <h3>{falsefriendscard.word1}</h3>
+              <h2>{falsefriendscard.word1}</h2>
               </div>    
               <div className="back">
-              <h3>{falsefriendscard.word2}</h3>
+              <h2>{falsefriendscard.word2}</h2>
               
               </div>
             </div>

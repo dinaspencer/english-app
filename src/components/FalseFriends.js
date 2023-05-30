@@ -25,7 +25,7 @@ const FalseFriendsCard = ({ falsefriendscard }) => {
               <h2>{falsefriendscard.word1}</h2>
               </div>    
               <div className="back">
-              <h2>{falsefriendscard.word2}</h2>
+              <h4>{falsefriendscard.word2}</h4>
               
               </div>
             </div>
@@ -49,7 +49,7 @@ const falsefriends_cards = [
     {"id":1,"word1":"asignatura","word2":"subject"},
     {"id":2,"word1":"signature","word2":"firma"},
     {"id":3,"word1":"introduce","word2":"presentar"},
-    {"id":4,"word1":"pretender","word2":"aim"},
+    {"id":4,"word1":"pretender","word2":"aim, attempt"},
     {"id":5,"word1":"pretend","word2":"fingir"},
     {"id":6,"word1":"realize","word2":"darse cuenta"},
     {"id":7,"word1":"realizar","word2":"achieve, perform, fulfill"},
@@ -85,7 +85,7 @@ const falsefriends_cards = [
     {"id":37,"word1":"largo","word2":"long"},
     {"id":38,"word1":"introducir","word2":"insert"},
     {"id":39,"word1":"disgust","word2":"asco"},
-    {"id":40,"word1":"disgusto","word2":"worry, annoyance"}
+    {"id":40,"word1":"disgusto","word2":"dissatisfaction, annoyance"}
     
 ]
 

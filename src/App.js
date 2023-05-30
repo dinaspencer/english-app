@@ -6,7 +6,7 @@ import MainView from './components/MainView';
 function Header() {
   return (
     <header className="App-header">
-    <h1>English Games</h1>
+    <h1>English Cards</h1>
   </header>
   )
 }

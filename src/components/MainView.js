@@ -18,9 +18,10 @@ function MainView() {
       
     <section className="main-container">
       <ul>
-        <li><Link to={process.env.PUBLIC_URL + '/reflection'} type="button" className="main-button">Reflect: Your Year</Link></li>
-        <li><Link to={process.env.PUBLIC_URL + '/topics'} type="button" className="main-button">Random Topics</Link></li>
+        <li><Link to={process.env.PUBLIC_URL + '/falsefriends'} type="button" className="main-button">False Friends</Link></li>
         <li><Link to={process.env.PUBLIC_URL + '/phrasalverbs'} type="button" className="main-button">Phrasal Verbs</Link></li>
+        <li><Link to={process.env.PUBLIC_URL + '/topics'} type="button" className="main-button">Random Topics</Link></li>
+        <li><Link to={process.env.PUBLIC_URL + '/reflection'} type="button" className="main-button">Reflect: Your Year</Link></li>
         <li><Link to={process.env.PUBLIC_URL + '/expressions'} type="button" className="main-button">Expressions</Link></li>
         <li><Link to={process.env.PUBLIC_URL + '/feelings'} type="button" className="main-button">Feeling or Adjective?</Link></li>
         <li><Link to={process.env.PUBLIC_URL + '/gerund'} type="button" className="main-button">Gerund or Infinitive?</Link></li>

@@ -64,8 +64,6 @@ const falsefriends_cards = [
     {"id":16,"word1":"sane","word2":"cuerdo"},
     {"id":17,"word1":"actual (English)","word2":"real, verdadero"},
     {"id":18,"word1":"actual (Spanish)","word2":"current"},
-    {"id":19,"word1":"attend","word2":"asistir"},
-    {"id":20,"word1":"atender","word2":"to pay attention"},
     {"id":21,"word1":"assist","word2":"ayudar"},
     {"id":22,"word1":"asistir","word2":"to attend"},
     {"id":23,"word1":"carpet","word2":"alfombra"},
@@ -89,7 +87,9 @@ const falsefriends_cards = [
     {"id":41,"word1":"idiom","word2":"frase hecha"},
     {"id":42,"word1":"idioma","word2":"language"},
     {"id":41,"word1":"discussion","word2":"debate, conversación"},
-    {"id":42,"word1":"discusión","word2":"argument"}
+    {"id":42,"word1":"discusión","word2":"argument"},
+    {"id":43,"word1":"remove","word2":"quitar"},
+    {"id":44,"word1":"remover","word2":"stir"}
     
 ]
 

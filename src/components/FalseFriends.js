@@ -89,7 +89,9 @@ const falsefriends_cards = [
     {"id":41,"word1":"discussion","word2":"debate, conversación"},
     {"id":42,"word1":"discusión","word2":"argument"},
     {"id":43,"word1":"remove","word2":"quitar"},
-    {"id":44,"word1":"remover","word2":"stir"}
+    {"id":44,"word1":"remover","word2":"stir"},
+    {"id":45,"word1":"lecture","word2":"ponencia"},
+    {"id":46,"word1":"lectura","word2":"reading"}
     
 ]
 

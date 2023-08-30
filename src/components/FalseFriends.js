@@ -53,7 +53,7 @@ const falsefriends_cards = [
     {"id":5,"word1":"pretend","word2":"fingir"},
     {"id":6,"word1":"realize","word2":"darse cuenta"},
     {"id":7,"word1":"realizar","word2":"achieve, perform, fulfill"},
-    {"id":8,"word1":"constipado","word2":"to have a cold"},
+    {"id":8,"word1":"constipado","word2":"a cold"},
     {"id":9,"word1":"constipated","word2":"estreñido"},
     {"id":10,"word1":"embarazada","word2":"pregnant"},
     {"id":11,"word1":"embarrassed","word2":"avergonzado"},

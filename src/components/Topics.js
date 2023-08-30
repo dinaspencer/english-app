@@ -45,30 +45,28 @@ const TopicCard = ({ topiccard }) => {
   }
 
  const topic_cards = [
-  {"id": 1, "topic": "cannabis"},  
+  {"id": 1, "topic": "fitfluencers / influencers"},  
   {"id": 2, "topic": "the metaverse"}, 
-  {"id": 3, "topic": "a sport I wanted to play when I was younger"}, 
+  {"id": 3, "topic": "a TV series I enjoyed"}, 
   {"id": 4, "topic": "the best way to invest money"},
   {"id": 5, "topic": "the healthcare system"}, 
   {"id": 6, "topic": "the British royal family"}, 
-  {"id": 7, "topic": "a piece of clothing that looks really good on me"},
-  {"id": 8, "topic":  "what I wish I had known before having kids (or getting married)"}, 
-  {"id": 9, "topic": "if you could return to school, what would you study?"}, 
-  {"id": 10, "topic": "did your degree prepare you well for your career?"}, 
+  {"id": 7, "topic": "global warming"},
+  {"id": 8, "topic": "my best memories of my teenage years"},
+  {"id": 9, "topic": "Isabel Diaz Ayuso"},
   {"id": 11, "topic": "immigration"},
-  {"id": 12, "topic": "how long have you known your best friend? where did you meet and what did you have in common?"},
-  {"id": 13, "topic": "if you could change one thing about your current house to make it more comfortable, what would it be?"},
-  {"id": 14, "topic": "would you marry someone ten years older than you? how about ten years younger than you?"},
+  {"id": 12, "topic": "Rubiales"},
+  {"id": 13, "topic": "my dream house"},
+  {"id": 14, "topic": "the recent election"},
   {"id": 15, "topic": "a great book I read"},
-  {"id": 16, "topic": "organic food"},
+  {"id": 16, "topic": "the best place I went this summer"},
   {"id": 17, "topic": "three cities I would love to visit"},
-  {"id": 18, "topic": "what things were you taught by your older family members?"},
   {"id": 19, "topic": "something I'm eager to do"},
-  {"id": 20, "topic": "Twitter"},
-  {"id": 21, "topic": "Iran"},
+  {"id": 20, "topic": "inflation"},
+  {"id": 21, "topic": "Russia"},
   {"id": 22, "topic": "something I can't live without"},
   {"id": 23, "topic": "online/app dating"},
-  {"id": 24, "topic": "Vladimir Putin"}
+  {"id": 24, "topic": "Nadal or Alcaraz?"}
 ]
 
      const shuffleCards = topic_cards.sort(() => Math.random() - 0.5);

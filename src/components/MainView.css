@@ -1,0 +1,35 @@
+.main-container {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox; 
+    display: -webkit-flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center;
+       margin: 32px auto;
+       
+  }
+  
+  .main-container li {
+    list-style-type: none;
+    background-color: #b7c47d;
+    border-radius: 8px;
+    width: 292px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 22px;
+    font-size: 1.7em;
+    padding: 32px;
+    text-decoration: none; 
+  
+  }
+  
+  
+  .main-container li:hover {
+    opacity: 0.7;
+  }
+  
+
+

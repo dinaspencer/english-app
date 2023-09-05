@@ -62,12 +62,12 @@ const phrasalverb_cards = [ {
     "meaning": "To make sense, seem reasonable; To take the sum of many small things",
     "phrasalVerb": "add up"
   },
-  {
-    "id": 4,
-    "example": "Tell me something you would advise a new colleague against.",
-    "meaning": "To recommend not doing something",
-    "phrasalVerb": "advise against"
-  },
+  // {
+  //   "id": 4,
+  //   "example": "Tell me something you would advise a new colleague against.",
+  //   "meaning": "To recommend not doing something",
+  //   "phrasalVerb": "advise against"
+  // },
   {
     "id": 5,
     "example": "Do you ever pretend to agree with someone, rather than share your true opinion?",
@@ -244,15 +244,15 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 34,
-    "example": "Have you ever forgotten to check out of a hotel?",
-    "meaning": "To pay one’s bill and leave (a hotel)\nTo investigate",
+    "example": "A new restaurant or activity you'd love to check out",
+    "meaning": "To investigate (also, to pay the bill and leave a hotel)",
     "phrasalVerb": "check out"
   },
   {
     "id": 35,
-    "example": "Have you ever clammed up in an English-speaking meeting?",
-    "meaning": "To become nervous and refuse to speak",
-    "phrasalVerb": "clam up"
+    "example": "A task in your to-do list that you're looking forward to checking off",
+    "meaning": "To mark an item on a list to show that it has been done",
+    "phrasalVerb": "check off"
   },
   {
     "id": 36,
@@ -273,6 +273,12 @@ const phrasalverb_cards = [ {
     "phrasalVerb": "come forward"
   },
   {
+    "id": 385,
+    "example": "When your friends come over, who helps you clean up afterward?",
+    "meaning": "When people who don't live with you come to visit you at home",
+    "phrasalVerb": "come over"
+  },
+  {
     "id": 39,
     "example": "Someone you really count on",
     "meaning": "To rely or depend on (for help)",
@@ -281,7 +287,7 @@ const phrasalverb_cards = [ {
   {
     "id": 40,
     "example": "Something you always say you're going to cut down on",
-    "meaning": "To reduce in number or size",
+    "meaning": "To reduce in frequency or number",
     "phrasalVerb": "cut down on"
   },
   {
@@ -316,22 +322,28 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 46,
-    "example": "Do you draw up contracts as part of your normal job?",
-    "meaning": "To write (contract, agreement, document)",
-    "phrasalVerb": "draw up"
+    "example": "An activity or task you'd prefer to do away with",
+    "meaning": "To eliminate, terminate or end",
+    "phrasalVerb": "do away with"
   },
+  // {
+  //   "id": 46,
+  //   "example": "Do you draw up contracts as part of your normal job?",
+  //   "meaning": "To write (contract, agreement, document)",
+  //   "phrasalVerb": "draw up"
+  // },
   {
     "id": 47,
     "example": "When was the last time you dressed up? What did you wear?",
     "meaning": "wear elegant clothes",
     "phrasalVerb": "dress up"
   },
-  {
-    "id": 48,
-    "example": "Someone who you like dropping in to visit when you have time",
-    "meaning": "To visit, usually on the way somewhere",
-    "phrasalVerb": "drop in"
-  },
+  // {
+  //   "id": 48,
+  //   "example": "Someone who you like dropping in to visit when you have time",
+  //   "meaning": "To visit, usually on the way somewhere",
+  //   "phrasalVerb": "drop in"
+  // },
   {
     "id": 49,
     "example": "Do you still have to drop your kids off at school?",
@@ -350,12 +362,12 @@ const phrasalverb_cards = [ {
     "meaning": "To reduce, become less severe or slow down (pain, traffic, work)",
     "phrasalVerb": "ease off"
   },
-  {
-    "id": 52,
-    "example": "Do you know anyone whose marriage ended in divorce?",
-    "meaning": "To finish in a certain way; result in",
-    "phrasalVerb": "end in"
-  },
+  // {
+  //   "id": 52,
+  //   "example": "Do you know anyone whose marriage ended in divorce?",
+  //   "meaning": "To finish in a certain way; result in",
+  //   "phrasalVerb": "end in"
+  // },
   {
     "id": 53,
     "example": "A person who you ended up becoming friends with, who you didn't expect.",
@@ -394,6 +406,12 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 59,
+    "example": "Agree or disagree: You must always follow through on the things that you start.",
+    "meaning": "To carry a promise or intention to completion; pursue fully.",
+    "phrasalVerb": "follow through (on)"
+  },
+  {
+    "id": 60,
     "example": "A person who you really get along with, and a person you don't get along with",
     "meaning": "To be on good terms; work well with",
     "phrasalVerb": "get along (with)"
@@ -746,12 +764,18 @@ const phrasalverb_cards = [ {
     "meaning": "To indicate/direct attention to something",
     "phrasalVerb": "point out"
   },
-  // {
-  //   "id": 118,
-  //   "example": "You can rely on me. I always arrive on time.",
-  //   "meaning": "To count on, depend on, trust",
-  //   "phrasalVerb": "rely on"
-  // },
+   {
+    "id": 118,
+    "example": "What's the best way to ramp up your productivity?",
+    "meaning": "To increase the level or activity of something",
+    "phrasalVerb": "ramp up"
+  },
+  {
+    "id": 1185,
+    "example": "Did you know that Americans rack up a huge amount of credit card debt? Why do you think this happens?",
+    "meaning": "To gradually gain a large amount of something",
+    "phrasalVerb": "rack up"
+  },
   {
     "id": 119,
     "example": "Some countries you've ruled out for your travel plans",
@@ -764,16 +788,16 @@ const phrasalverb_cards = [ {
     "meaning": "To escape from a place or suddenly leave",
     "phrasalVerb": "run away"
   },
-  // {
-  //   "id": 121,
-  //   "example": "I’m so glad I ran into you. I need to ask you something.",
-  //   "meaning": "To meet by accident or unexpectedly (also: bump into)",
-  //   "phrasalVerb": "run into"
-  // },
+  {
+    "id": 121,
+    "example": "I’m so glad I ran into you. I need to ask you something.",
+    "meaning": "To meet by accident or unexpectedly (also: bump into)",
+    "phrasalVerb": "run into"
+  },
   {
     "id": 122,
     "example": "Something in your kitchen that you're running out of, and who's going to buy more",
-    "meaning": "To have no more of something.",
+    "meaning": "To finish and have no more of something",
     "phrasalVerb": "run out of"
   },
   // {
@@ -876,7 +900,7 @@ const phrasalverb_cards = [ {
     "id": 139,
     "example": "In your family, is it considered normal or rude to tell others off?",
     "meaning": "To reprimand/criticize severely",
-    "phrasalVerb": "tell off"
+    "phrasalVerb": "tell someone off"
   },
   {
     "id": 140,

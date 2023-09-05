@@ -92,30 +92,30 @@ const phrasalverb_cards = [ {
     "meaning": "To make a formal request for something (job, permit, loan etc.)",
     "phrasalVerb": "apply for"
   },
-  {
-    "id": 9,
-    "example": "Have you ever backed away from a scary animal or situation?",
-    "meaning": "To move backwards, in fear or dislike",
-    "phrasalVerb": "back away"
-  },
-  {
-    "id": 10,
-    "example": "I wish ______ would back down.",
-    "meaning": "To withdraw, concede defeat, or admit being wrong",
-    "phrasalVerb": "back down"
-  },
+  // {
+  //   "id": 9,
+  //   "example": "Have you ever backed away from a scary animal or situation?",
+  //   "meaning": "To move backwards, in fear or dislike",
+  //   "phrasalVerb": "back away"
+  // },
+  // {
+  //   "id": 10,
+  //   "example": "I wish ______ would back down.",
+  //   "meaning": "To withdraw, concede defeat, or admit being wrong",
+  //   "phrasalVerb": "back down"
+  // },
   {
     "id": 11,
     "example": "A time when you needed someone to back you up",
     "meaning": "To give support or encouragement\nTo make a copy of (file, program, etc.)",
     "phrasalVerb": "back up"
   },
-  {
-    "id": 12,
-    "example": "I’m banking on you to help with the charity event.",
-    "meaning": "To base your hopes on something / someone",
-    "phrasalVerb": "bank on"
-  },
+  // {
+  //   "id": 12,
+  //   "example": "I’m banking on you to help with the charity event.",
+  //   "meaning": "To base your hopes on something / someone",
+  //   "phrasalVerb": "bank on"
+  // },
   {
     "id": 13,
     "example": "Have you ever blacked out?",
@@ -140,18 +140,18 @@ const phrasalverb_cards = [ {
     "meaning": "To be summarized as",
     "phrasalVerb": "boil down to"
   },
-  {
-    "id": 17,
-    "example": "You need to boot up your computer before you begin to work.",
-    "meaning": "To start a computer by loading an operating system or program",
-    "phrasalVerb": "boot up"
-  },
-  {
-    "id": 18,
-    "example": "One of the wolves broke away from his pack.",
-    "meaning": "To separate from a crowd",
-    "phrasalVerb": "break away"
-  },
+  // {
+  //   "id": 17,
+  //   "example": "You need to boot up your computer before you begin to work.",
+  //   "meaning": "To start a computer by loading an operating system or program",
+  //   "phrasalVerb": "boot up"
+  // },
+  // {
+  //   "id": 18,
+  //   "example": "One of the wolves broke away from his pack.",
+  //   "meaning": "To separate from a crowd",
+  //   "phrasalVerb": "break away"
+  // },
   {
     "id": 19,
     "example": "Tell me about a time when something of yours (a machine, car, etc) broke down.",
@@ -398,12 +398,12 @@ const phrasalverb_cards = [ {
     "meaning": "To discover or obtain information",
     "phrasalVerb": "find out"
   },
-  {
-    "id": 58,
-    "example": "When is it hard for you to focus on your work?",
-    "meaning": "To concentrate on something",
-    "phrasalVerb": "focus on"
-  },
+  // {
+  //   "id": 58,
+  //   "example": "When is it hard for you to focus on your work?",
+  //   "meaning": "To concentrate on something",
+  //   "phrasalVerb": "focus on"
+  // },
   {
     "id": 59,
     "example": "Agree or disagree: You must always follow through on the things that you start.",
@@ -440,12 +440,12 @@ const phrasalverb_cards = [ {
     "meaning": "To enter",
     "phrasalVerb": "get in"
   },
-  // {
-  //   "id": 64,
-  //   "example": "How did you get into your car without the keys?",
-  //   "meaning": "To enter",
-  //   "phrasalVerb": "get into (+noun)"
-  // },
+  {
+    "id": 64,
+    "example": "Agree or disagree: the most important thing for high school students to think about is getting into a good university",
+    "meaning": "To be able to enter",
+    "phrasalVerb": "get into"
+  },
   {
     "id": 65,
     "example": "Have you ever forgotten to get off a train or bus at the stop you wanted?",

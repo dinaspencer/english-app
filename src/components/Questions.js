@@ -47,7 +47,7 @@ const QuestionCard = ({ questioncard }) => {
 
 const question_cards = [
     {id: 1, "topic": "when"},  
-    {id: 2, "topic": "2nd conditional"}, 
+    {id: 2, "topic": "if you.... (2nd conditional)"}, 
     {id: 3, "topic": "how many"}, 
     {id: 4, "topic": "why"},
     {id: 5, "topic": "would you like"}, 
@@ -55,9 +55,9 @@ const question_cards = [
     {id: 7, "topic": "what"},
     {id: 8, "topic":  "where"}, 
     {id: 9, "topic": "do"}, 
-    {id: 10, "topic": "could"}, 
+    {id: 10, "topic": "were you able"}, 
     {id: 11, "topic": "are you going"},   
-    {id: 11, "topic": "3rd conditional"}, 
+    {id: 11, "topic": "if you.... (3rd conditional)"}, 
     {id: 13, "topic": "did"},
     {id: 14, "topic": "have you ever"},
     {id: 15, "topic": "do you think"}]

@@ -1,0 +1,105 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
+.header {
+    padding: 48px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 16px;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.card h3 {
+    font-size: 0.9em;
+}
+
+.card h4 {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+.card-container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 1rem;
+    padding-top: 24px;
+    padding-left: 1rem;
+}
+
+
+.card {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+            transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+    border: 2px solid black;
+    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,.3);
+            box-shadow: 0 0 5px 2px rgba(0,0,0,.3);
+    cursor: pointer;
+    max-width: 90%;
+    height: 280px;
+    -webkit-transition: 150ms;
+    -o-transition: 150ms;
+    transition: 150ms;
+    
+}
+
+.card.flip {
+    --rotate-y: 180deg;
+    background: transparent;
+}
+
+.card .front, .card .back {
+    position: absolute;
+    font-size: 1.6em;
+    padding: 22px;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            
+}
+
+.card .front {
+    -webkit-transform: rotateY(0deg);
+         transform: rotateY(0deg);
+}
+
+.card .back  {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+   
+              
+}
+
+
+@media (min-width: 840px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    }
+
+} 

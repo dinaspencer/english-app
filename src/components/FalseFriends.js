@@ -3,7 +3,6 @@ import './FalseFriendsCard.css';
 import { Link } from 'react-router-dom';
 
 
-
 function FalseFriendsHeader() {
   return (
     <header className="App-header header">

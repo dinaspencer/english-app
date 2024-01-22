@@ -93,13 +93,14 @@ const falsefriends_cards = [
     {"id":45,"word1":"bland","word2":"soso"},
     {"id":46,"word1":"blando","word2":"soft"},
     {"id":47,"word1":"career","word2":"carrera profesional"},
-    {"id":48,"word1":"carrera","word2":"race, degree"},
+    {"id":48,"word1":"carrera","word2":"degree (or race)"},
     {"id":49,"word1":"disposable","word2":"desechable"},
-    {"id":50,"word1":"disponible","word2":"available"}
+    {"id":50,"word1":"disponible","word2":"available"},
+    {"id":51,"word1":"sensible (English)","word2":"sensato"},
+    {"id":52,"word1":"sensible (Spanish)","word2":"sensitive"}
     
 ]
 
-  
   
   function FalseFriends () {
 

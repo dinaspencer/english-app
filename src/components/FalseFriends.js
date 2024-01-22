@@ -91,7 +91,11 @@ const falsefriends_cards = [
     {"id":43,"word1":"lecture","word2":"ponencia"},
     {"id":44,"word1":"lectura","word2":"reading"},
     {"id":45,"word1":"bland","word2":"soso"},
-    {"id":46,"word1":"blando","word2":"soft"}
+    {"id":46,"word1":"blando","word2":"soft"},
+    {"id":47,"word1":"career","word2":"carrera profesional"},
+    {"id":48,"word1":"carrera","word2":"race, degree"},
+    {"id":49,"word1":"disposable","word2":"desechable"},
+    {"id":50,"word1":"disponible","word2":"available"}
     
 ]
 

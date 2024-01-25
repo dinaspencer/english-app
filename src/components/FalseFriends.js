@@ -96,7 +96,12 @@ const falsefriends_cards = [
     {"id":49,"word1":"disposable","word2":"desechable"},
     {"id":50,"word1":"disponible","word2":"available"},
     {"id":51,"word1":"sensible (English)","word2":"sensato"},
-    {"id":52,"word1":"sensible (Spanish)","word2":"sensitive"}
+    {"id":52,"word1":"sensible (Spanish)","word2":"sensitive"},
+    {"id":53,"word1":"distress","word2":"desamparo"},
+    {"id":54,"word1":"destreza","word2":"skill"},
+    {"id":55,"word1":"pan (English)","word2":"sartén"},
+    {"id":56,"word1":"pan (Spanish)","word2":"bread"},
+    
     
 ]
 

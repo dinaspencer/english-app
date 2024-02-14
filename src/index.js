@@ -15,6 +15,7 @@ import Expressions from './components/Expressions';
 import WishHope from './components/WishHope';
 import Feelings from './components/Feelings';
 import FalseFriends from './components/FalseFriends';
+import Confused from './components/Confused';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
     <Route path={process.env.PUBLIC_URL + '/wish-hope'} element={<WishHope />} />
     <Route path={process.env.PUBLIC_URL + '/feelings'} element={<Feelings />} />
     <Route path={process.env.PUBLIC_URL + '/falsefriends'} element={<FalseFriends />} />
+    <Route path={process.env.PUBLIC_URL + '/confusedwords'} element={<Confused />} />
   </Routes>
   </BrowserRouter>
 

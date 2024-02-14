@@ -26,6 +26,8 @@ function MainView() {
         <li><Link to={process.env.PUBLIC_URL + '/reflection'} type="button" className="main-button">Reflection Questions</Link></li>
 
         <li><Link to={process.env.PUBLIC_URL + '/phrasalverbs'} type="button" className="main-button">Phrasal Verbs</Link></li>
+
+        <li><Link to={process.env.PUBLIC_URL + '/confusedwords'} type="button" className="main-button">Commonly Confused Words</Link></li>
         
         <li><Link to={process.env.PUBLIC_URL + '/feelings'} type="button" className="main-button">Feeling or Adjective?</Link></li>
 

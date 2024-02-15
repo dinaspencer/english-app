@@ -8,7 +8,7 @@ function ConfusedHeader() {
   return (
     <header className="App-header header">
       <Link to={process.env.PUBLIC_URL + '/'}>Main Menu</Link>
-    <h1>Gerund or Infinitive?</h1>
+    <h1>Commonly Confused Words</h1>
   </header>
   )
 }

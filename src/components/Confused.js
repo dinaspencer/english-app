@@ -156,7 +156,16 @@ const confused_cards = [
         "question": "Do you enjoy going to museums? What do you like to (see/watch) there?",
         "answer": "Do you enjoy going to museums? What do you like to see there?"
     },
-      
+      {
+        "id": 23,
+        "question": "Do you enjoy (knowing/meeting) new people?",
+        "answer": "Do you enjoy meeting new people?"
+    },
+    {
+        "id": 24,
+        "question": "Tell me about the friend you have (met/known) the longest.",
+        "answer": "Tell me about the friend you have known the longest."
+    },
 ]
 
 const shuffleCards = confused_cards.sort(() => Math.random() - 0.5);

@@ -166,6 +166,16 @@ const confused_cards = [
         "question": "Tell me about the friend you have (met/known) the longest.",
         "answer": "Tell me about the friend you have known the longest."
     },
+    {
+        "id": 25,
+        "question": "Do you have to work with a lot of (scientists/scientifics)?",
+        "answer": "Do you have to work with a lot of scientists?"
+    },
+    {
+        "id": 26,
+        "question": "What types of (scientist/scientific) studies are interesting to you?",
+        "answer": "What types of scientific studies are interesting to you?"
+    },
 ]
 
 const shuffleCards = confused_cards.sort(() => Math.random() - 0.5);

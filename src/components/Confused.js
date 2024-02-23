@@ -176,6 +176,16 @@ const confused_cards = [
         "question": "What types of (scientist/scientific) studies are interesting to you?",
         "answer": "What types of scientific studies are interesting to you?"
     },
+    {
+      "id": 27,
+      "question": "Tell me about the last conference you (assisted/attended). What was it about?",
+      "answer": "Tell me about the last conference you attended. What was it about?"
+  },
+  {
+      "id": 28,
+      "question": "What types of tasks would you like to delegate to an (assistant/attendant)?",
+      "answer": "What types of tasks would you like to delegate to an assistant?"
+  },
 ]
 
 const shuffleCards = confused_cards.sort(() => Math.random() - 0.5);

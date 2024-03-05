@@ -144,13 +144,13 @@ const feelings_cards = [
       
         {
           "id": 20,
-          "answer": "A celebrity who you think is absolutely stunning",
-          "question": "A celebrity who you think is absolutely (stunning/stunned)"
+          "answer": "Some shocking news you heard",
+          "question": "Some (shocking/shocked) news you heard"
         },
         {
           "id": 21,
-          "answer": "Have you ever been stunned by a news story?",
-          "question": "Have you ever been (stunning/stunned) by a news story?"
+          "answer": "Do you easily feel shocked?",
+          "question": "Do you easily feel (shocking/shocked)?"
         }
     
 ]

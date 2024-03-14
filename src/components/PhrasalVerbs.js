@@ -88,12 +88,12 @@ const phrasalverb_cards = [ {
     "phrasalVerb": "back up"
   },
   
-  {
-    "id": 13,
-    "example": "Have you ever blacked out?",
-    "meaning": "To faint, lose consciousness",
-    "phrasalVerb": "black out"
-  },
+  // {
+  //   "id": 13,
+  //   "example": "Have you ever blacked out?",
+  //   "meaning": "To faint, lose consciousness",
+  //   "phrasalVerb": "black out"
+  // },
   {
     "id": 14,
     "example": "Do you block off time in your calendar for specific tasks?",
@@ -284,7 +284,7 @@ const phrasalverb_cards = [ {
   {
     "id": 54,
     "example": "Tell me about a time when your travel plans fell through.",
-    "meaning": "To fail; doesn’t happen",
+    "meaning": "To fail; when a plan doesn’t happen",
     "phrasalVerb": "fall through"
   },
   {
@@ -295,7 +295,7 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 56,
-    "example": "Do you hate filling out forms? Why or why not?",
+    "example": "Do you hate filling out forms? Which are the worst ones?",
     "meaning": "To complete (a form/an application)",
     "phrasalVerb": "fill out"
   },
@@ -349,12 +349,12 @@ const phrasalverb_cards = [ {
     "meaning": "To leave (bus, train, plane)",
     "phrasalVerb": "get off"
   },
-  {
-    "id": 66,
-    "example": "Do you switch your phone to airplane mode when you get on a flight?",
-    "meaning": "To board (bus, train, plane)",
-    "phrasalVerb": "get on"
-  },
+  // {
+  //   "id": 66,
+  //   "example": "Do you switch your phone to airplane mode when you get on a flight?",
+  //   "meaning": "To board (bus, train, plane)",
+  //   "phrasalVerb": "get on"
+  // },
   
   {
     "id": 68,
@@ -362,12 +362,12 @@ const phrasalverb_cards = [ {
     "meaning": "To have a good relationship with",
     "phrasalVerb": "get on (well) with (somebody)"
   },
-  {
-    "id": 69,
-    "example": "A time when you really wanted to get out of a specific place",
-    "meaning": "To leave",
-    "phrasalVerb": "get out"
-  },
+  // {
+  //   "id": 69,
+  //   "example": "A time when you really wanted to get out of a specific place",
+  //   "meaning": "To leave quickly",
+  //   "phrasalVerb": "get out"
+  // },
   {
     "id": 70,
     "example": "A time when you tried to get out of a meeting or responsibility",
@@ -443,7 +443,7 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 84,
-    "example": "Is there anything holding you back from achieving success?",
+    "example": "What is holding you back from achieving success?",
     "meaning": "To prevent someone from doing something",
     "phrasalVerb": "hold back"
   },
@@ -468,9 +468,9 @@ const phrasalverb_cards = [ {
   // },
   {
     "id": 89,
-    "example": "A celebrity you think you would hit it off with",
+    "example": "Someone you hit it off with, and someone who you think you would hit it off with",
     "meaning": "To have a good relationship from the first moment of meeting someone",
-    "phrasalVerb": "hit it off"
+    "phrasalVerb": "hit it off (with)"
   },
   // {
   //   "id": 90,
@@ -510,7 +510,7 @@ const phrasalverb_cards = [ {
   },
   {
     "id": 96,
-    "example": "What do you think about people who look down on others?",
+    "example": "What do you think about people who look down on others? Can you give me an example?",
     "meaning": "To consider as inferior",
     "phrasalVerb": "look down on"
   },
@@ -639,7 +639,7 @@ const phrasalverb_cards = [ {
   {
     "id": 1185,
     "example": "Did you know that Americans rack up a huge amount of credit card debt? Why do you think this happens?",
-    "meaning": "To gradually gain a large amount of something",
+    "meaning": "To gradually accumulate a large amount of something",
     "phrasalVerb": "rack up"
   },
   {

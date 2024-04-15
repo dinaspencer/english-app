@@ -101,6 +101,10 @@ const falsefriends_cards = [
     {"id":54,"word1":"destreza","word2":"skill"},
     {"id":55,"word1":"pan (English)","word2":"sartén"},
     {"id":56,"word1":"pan (Spanish)","word2":"bread"},
+    {"id":57,"word1":"fault","word2":"culpa"},
+    {"id":58,"word1":"falta","word2":"lack"},
+    {"id":59,"word1":"journey","word2":"trip"},
+    {"id":60,"word1":"jornada","word2":"workday"},
     
     
 ]

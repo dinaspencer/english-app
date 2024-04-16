@@ -120,7 +120,42 @@ const gerund_cards = [
         "id": 15,
         "question": "Something your parents encouraged you (do) when you were a kid",
         "answer": "Something your parents encouraged you to do when you were a kid"
-    }
+    },
+    {
+      "id": 16,
+      "question": "Have you ever avoided (see) someone?",
+      "answer": "Have you ever avoided seeing someone?"
+    },
+    {
+      "id": 17,
+      "question": "Tell me about someone on your team who deserves (get) a promotion",
+      "answer": "Tell me about someone on your team who deserves to get a promotion"
+    },
+    {
+      "id": 18,
+      "question": "A project you agreed (participate) in but later realized you didn't have time",
+      "answer": "A project you agreed to participate in but later realized you didn't have time"
+    },
+    {
+      "id": 19,
+      "question": "Something you would never allow your kids (do), or something you were never allowed (do)",
+      "answer": "Something you would never allow your kids to do, or something you were never allowed to do"
+    },
+    {
+      "id": 20,
+      "question": "True or false: I always finish (read) the books that I start",
+      "answer": "True or false: I always finish reading the books that I start"
+    },
+    {
+      "id": 21,
+      "question": "A place from your childhood that you miss (go)",
+      "answer": "A place from your childhood that you miss going"
+    },
+    {
+      "id": 22,
+      "question": "A place you are thinking about (travel) this summer",
+      "answer": "A place you are thinking about traveling this summer"
+    },
       
 ]
 

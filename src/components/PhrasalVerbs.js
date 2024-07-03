@@ -805,6 +805,12 @@ const phrasalverb_cards = [ {
     "example": "Who does the washing up in your house?",
     "meaning": "To clean the dishes",
     "phrasalVerb": "wash up"
+  },
+  {
+    "id": 149,
+    "example": "Have you ever snuck into an event that you weren't invited to? Did you ever try to sneak out of your house as a teenager?",
+    "meaning": "To enter or leave a place quietly and secretly",
+    "phrasalVerb": "sneak in/sneak out"
   }
 ]
 

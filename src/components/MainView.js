@@ -23,6 +23,8 @@ function MainView() {
        
         <li><Link to={process.env.PUBLIC_URL + '/topics'} type="button" className="main-button">Random Topics</Link></li>
 
+        <li><Link to={process.env.PUBLIC_URL + '/mba'} type="button" className="main-button">Business Questions</Link></li>
+
         <li><Link to={process.env.PUBLIC_URL + '/reflection'} type="button" className="main-button">Reflection Questions</Link></li>
 
         <li><Link to={process.env.PUBLIC_URL + '/phrasalverbs'} type="button" className="main-button">Phrasal Verbs</Link></li>

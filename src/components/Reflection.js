@@ -63,7 +63,6 @@ const reflection_cards = [
     {id: 17, "topic":  "what is something you don't want to put up with going forward?"},
     {id: 18, "topic": "a place or product that is overrated"},
     {id: 19, "topic": "a breathtaking place you visited this year"},
-    {id: 20, "topic": "a habit you need to kick"},
     {id: 21, "topic": "the best advice you received (or gave) in the last year"},
     {id: 22, "topic": "the highlight of your year"},
     {id: 24, "topic": "what things freak you out?"},

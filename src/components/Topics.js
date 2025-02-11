@@ -46,13 +46,13 @@ const TopicCard = ({ topiccard }) => {
 
  const topic_cards = [
   {"id": 1, "topic": "fitfluencers / influencers"},  
-  {"id": 2, "topic": "the metaverse"}, 
+  {"id": 2, "topic": "chatGPT"}, 
   {"id": 3, "topic": "a TV series I enjoyed"}, 
-  {"id": 4, "topic": "the best way to invest money"},
+  {"id": 4, "topic": "something worth investing in"},
   {"id": 5, "topic": "the healthcare system"}, 
-  {"id": 6, "topic": "the British royal family"}, 
+  {"id": 6, "topic": "a guilty pleasure"}, 
   {"id": 7, "topic": "global warming"},
-  {"id": 8, "topic": "my best memories of my teenage years"},
+  {"id": 8, "topic": "the best way to save or invest money"},
   {"id": 9, "topic": "the Spanish monarchy"},
   {"id": 11, "topic": "immigration"},
   {"id": 12, "topic": "social media"},
@@ -63,7 +63,7 @@ const TopicCard = ({ topiccard }) => {
   {"id": 17, "topic": "three cities I would love to visit"},
   {"id": 19, "topic": "something I'm eager to do"},
   {"id": 20, "topic": "inflation"},
-  {"id": 21, "topic": "Russia"},
+  {"id": 21, "topic": "TikTok and other Chinese tech companies"},
   {"id": 22, "topic": "something I can't live without"},
   {"id": 23, "topic": "online/app dating"},
   {"id": 24, "topic": "Nadal or Alcaraz?"}

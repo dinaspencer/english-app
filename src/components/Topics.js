@@ -66,7 +66,10 @@ const TopicCard = ({ topiccard }) => {
   {"id": 21, "topic": "TikTok and other Chinese tech companies"},
   {"id": 22, "topic": "something I can't live without"},
   {"id": 23, "topic": "online/app dating"},
-  {"id": 24, "topic": "Nadal or Alcaraz?"}
+  {"id": 24, "topic": "Nadal or Alcaraz?"},
+  {"id": 25, "topic": "a dealbreaker for you in relationships"},
+  {"id": 26, "topic": "if I ran the world..."},
+  {"id": 27, "topic": "I try to steer clear of...."}
 ]
 
      const shuffleCards = topic_cards.sort(() => Math.random() - 0.5);

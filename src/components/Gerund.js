@@ -156,6 +156,16 @@ const gerund_cards = [
       "question": "A place you are thinking about (travel) this summer",
       "answer": "A place you are thinking about traveling this summer"
     },
+    {
+      "id": 23,
+      "question": "Something you need (get) off your chest",
+      "answer": "Something you need to get off your chest"
+    },
+    {
+      "id": 24,
+      "question": "A person you would like (catch up with)",
+      "answer": "A person you would like to catch up with"
+    },
       
 ]
 

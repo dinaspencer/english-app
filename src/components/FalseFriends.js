@@ -107,7 +107,8 @@ const falsefriends_cards = [
     {"id":60,"word1":"jornada","word2":"workday"},
     {"id":61,"word1":"plain","word2":"simple, claro"},
     {"id":62,"word1":"plano","word2":"flat"},
-    
+    {"id":63,"word1":"recipient","word2":"destinatario"},
+    {"id":64,"word1":"recipiente","word2":"container"},
     
 ]
 

@@ -666,13 +666,19 @@ const phrasalverb_cards = [ {
     "meaning": "To finish and have no more of something",
     "phrasalVerb": "run out of"
   },
+  {
+    "id": 123,
+    "example": "What do you think about throwing away food?",
+    "meaning": "To discard or put in the rubbish",
+    "phrasalVerb": "throw away"
+  },
   
-  // {
-  //   "id": 124,
-  //   "example": "What kind of company would you set up if you had unlimited funds?",
-  //   "meaning": "To start a business",
-  //   "phrasalVerb": "set up"
-  // },
+  {
+    "id": 124,
+    "example": "How long does it take you to put your clothes away after doing the laundry?",
+    "meaning": "To put an object in the place where it is stored after using it",
+    "phrasalVerb": "put away"
+  },
   {
     "id": 125,
     "example": "What products do you shop around for?",

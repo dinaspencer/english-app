@@ -40,10 +40,16 @@ function MainView() {
         <li><Link to={process.env.PUBLIC_URL + '/questions'} type="button" className="main-button">Create Questions</Link></li>
        
         <li><Link to={process.env.PUBLIC_URL + '/taboo'} type="button" className="main-button">Taboo</Link></li>
+
+        <li><Link to={process.env.PUBLIC_URL + '/falsefriends'} type="button" className="main-button">False Friends</Link></li>
+
+        <li><Link to={process.env.PUBLIC_URL + '/expressions'} type="button" className="main-button">Expressions</Link></li>
+
+        <li><Link to={process.env.PUBLIC_URL + '/prefixes'} type="button" className="main-button">Prefixes</Link></li>
            
       </ul>
     </div>
-    <div className="main-container column-container">
+    {/* <div className="main-container column-container">
       
       <ul>
       <li><Link to={process.env.PUBLIC_URL + '/falsefriends'} type="button" className="main-button">False Friends</Link></li>
@@ -52,7 +58,7 @@ function MainView() {
 
     <li><Link to={process.env.PUBLIC_URL + '/prefixes'} type="button" className="main-button">Prefixes</Link></li>
       </ul>
-    </div>
+    </div> */}
     </>
     )
   }

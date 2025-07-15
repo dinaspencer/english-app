@@ -58,7 +58,7 @@ const reflection_cards = [
     {id: 10, "topic": "something you're looking forward to"},   
     {id: 11, "topic": "something you should put on the back burner"}, 
     {id: 14, "topic": "if I cut back on ___, my life would improve."},
-    {id: 15, "topic": "someone who brings out the best in me"},
+    {id: 15, "topic": "someone who brings out the best in you"},
     {id: 16, "topic": "if you could go back to school, what would you study?"},  
     {id: 17, "topic":  "what is something you don't want to put up with going forward?"},
     {id: 18, "topic": "a place or product that is overrated"},

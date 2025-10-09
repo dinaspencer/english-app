@@ -11,7 +11,13 @@ function Header() {
   )
 }
 
-
+function Footer() {
+  return (
+    <footer className="App-header">
+    <h5><a href="https://dinaspencer.net" target="_blank" rel="noreferrer">Created by Dina Spencer</a></h5>
+  </footer>
+  )
+}
 
 function App() {
 
@@ -20,6 +26,7 @@ function App() {
     <div className="App">
       <Header />
       <MainView />
+      <Footer />
       
     </div>
   );

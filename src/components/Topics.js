@@ -46,7 +46,7 @@ const TopicCard = ({ topiccard }) => {
 
  const topic_cards = [
   {"id": 1, "topic": "influencers"},  
-  {"id": 2, "topic": "chatGPT"}, 
+  {"id": 2, "topic": "how I use chatGPT"}, 
   {"id": 3, "topic": "a TV series I enjoyed"}, 
   {"id": 4, "topic": "something worth investing in"},
   {"id": 5, "topic": "the healthcare system"}, 
@@ -57,19 +57,19 @@ const TopicCard = ({ topiccard }) => {
   {"id": 11, "topic": "immigration"},
   {"id": 12, "topic": "social media"},
   {"id": 13, "topic": "my dream house"},
-  {"id": 14, "topic": "current events and the state of the world"},
+  {"id": 14, "topic": "what's happening in the world"},
   {"id": 15, "topic": "a great book I read"},
   {"id": 16, "topic": "something that should be banned"},
-  {"id": 17, "topic": "three countries I would love to visit"},
+  {"id": 17, "topic": "mental health"},
   {"id": 19, "topic": "something I'm eager to do"},
   {"id": 20, "topic": "inflation"},
-  {"id": 21, "topic": "TikTok and other Chinese tech companies"},
+  {"id": 21, "topic": "Gen Z"},
   {"id": 22, "topic": "something I can't live without"},
   {"id": 23, "topic": "online/app dating"},
-  {"id": 24, "topic": "a hot take (a candid and possibly unpopular opinion of mine)"},
-  {"id": 25, "topic": "a dealbreaker for you in relationships"},
+  {"id": 24, "topic": "the future of AI"},
+  {"id": 25, "topic": "a dealbreaker in relationships"},
   {"id": 26, "topic": "if I ran the world..."},
-  {"id": 27, "topic": "I try to steer clear of...."},
+  {"id": 27, "topic": "my favorite film"},
   {"id": 28, "topic": "an activity that makes me lose track of time"}
 ]
 

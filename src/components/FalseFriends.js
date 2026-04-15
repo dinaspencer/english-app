@@ -111,6 +111,9 @@ const falsefriends_cards = [
     {"id":64,"word1":"recipiente","word2":"container"},
     {"id":65,"word1":"comprehensive","word2":"exhaustivo"},
     {"id":66,"word1":"comprensivo","word2":"understanding"},
+    {"id":67,"word1":"preservative","word2":"conservante"},
+    {"id":68,"word1":"preservativo","word2":"condom"},
+    
     
 ]
 

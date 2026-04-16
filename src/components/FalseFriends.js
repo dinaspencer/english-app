@@ -113,7 +113,8 @@ const falsefriends_cards = [
     {"id":66,"word1":"comprensivo","word2":"understanding"},
     {"id":67,"word1":"preservative","word2":"conservante"},
     {"id":68,"word1":"preservativo","word2":"condom"},
-    
+     {"id":69,"word1":"relieve (English)","word2":"verb: aliviar"},
+    {"id":70,"word1":"relieve (Spanish)","word2":"noun: importance, topography"},
     
 ]
 

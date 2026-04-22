@@ -115,6 +115,9 @@ const falsefriends_cards = [
     {"id":68,"word1":"preservativo","word2":"condom"},
      {"id":69,"word1":"relieve (English)","word2":"verb: aliviar"},
     {"id":70,"word1":"relieve (Spanish)","word2":"noun: importance, topography"},
+     {"id":71,"word1":"succeed","word2":"verb: tener éxito"},
+    {"id":72,"word1":"suceder","word2":"happen"},
+    
     
 ]
 

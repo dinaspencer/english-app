@@ -62,7 +62,6 @@ const reflection_cards = [
     {id: 16, "topic": "if you could go back to school, what would you study?"},  
     {id: 17, "topic":  "what is something you don't want to put up with going forward?"},
     {id: 18, "topic": "a place or product that is overrated"},
-    {id: 19, "topic": " breathtaking place you visited this year"},
     {id: 21, "topic": "the best advice you received (or gave) in the last year"},
     {id: 22, "topic": "the highlight of your year"},
     {id: 24, "topic": "what things freak you out?"},

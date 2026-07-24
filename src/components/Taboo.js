@@ -548,11 +548,7 @@ const taboo_cards = [ {
     "word": "war",
     "cant_say": "violence\narmy\nworld\nweapons"
   },
-  {
-    "id": 102,
-    "word": "star",
-    "cant_say": "\nsun\nbright\nyellow\nnight"
-  },
+  
   {
     "id": 103,
     "word": "busy",
